@@ -844,6 +844,293 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x07"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x07"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x07_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Antenna_Shield"
 			(pin_numbers
 				(hide yes)
@@ -2020,302 +2307,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Library:SSD1306_7pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SSD1306_7pin"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "taobao" "https://item.taobao.com/item.htm?abbucket=4&detail_redpacket_pop=true&id=675209717938&ltk2=1748529838043acxsexau2uftghrpi2qz2i&ns=1&priceTId=undefined&query=SSD1306%20spi%207&skuId=5031454707233&spm=a21n57.1.hoverItem.1&utparam=%7B%22aplus_abtest%22%3A%22f56e4581ac660d4c7658252119df4376%22%7D&xxc=taobaoSearch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SSD1306_7pin_1_1"
-				(rectangle
-					(start -1.27 8.89)
-					(end 1.27 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "RES"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "DC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "CS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7171,6 +7162,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "FSPICLK"
+		(exclude_from_sim no)
+		(at 121.92 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "000917c9-d6d7-459b-90b3-313494d81807")
+	)
 	(text "AUX_DA 和AUX_SCL 可以作为I2C 与 支持的三轴磁传感器通讯,并计算."
 		(exclude_from_sim no)
 		(at 115.57 81.28 0)
@@ -7204,6 +7206,28 @@
 		)
 		(uuid "092bb1b2-f85c-44e8-8d83-3c6618a8333f")
 	)
+	(text "TXD"
+		(exclude_from_sim no)
+		(at 137.16 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10629680-0035-4b08-b677-57cd0db5478a")
+	)
+	(text "SCL1"
+		(exclude_from_sim no)
+		(at 118.11 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1123bc8a-497b-4413-b636-bd4eb066fba6")
+	)
 	(text "USB_DP"
 		(exclude_from_sim no)
 		(at 340.36 43.18 0)
@@ -7215,6 +7239,17 @@
 		)
 		(uuid "11e36bb6-54bb-4fee-8bea-86d7e9e9a254")
 	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 71.12 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ab83fd1-ccbf-4196-ab34-b9501135b6f0")
+	)
 	(text "GPIO.5"
 		(exclude_from_sim no)
 		(at 368.3 180.34 0)
@@ -7225,6 +7260,39 @@
 			(justify left bottom)
 		)
 		(uuid "1fd429c9-52a7-4ca7-ad54-5b9fa7244c90")
+	)
+	(text "FSPICS0"
+		(exclude_from_sim no)
+		(at 121.92 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "220b79ab-1287-41de-b6bb-651a0ea3ef7b")
+	)
+	(text "SDA2"
+		(exclude_from_sim no)
+		(at 121.92 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "275f57a1-8446-4ee2-ac8d-ffbd873a724d")
+	)
+	(text "OLED_DATA_COMMAND"
+		(exclude_from_sim no)
+		(at 134.62 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27ab94be-5954-40c1-a64c-b62c2f153e47")
 	)
 	(text "FSYNC 帧同步数字输入"
 		(exclude_from_sim no)
@@ -7248,6 +7316,17 @@
 		)
 		(uuid "2b9a2bfc-b1c5-4b0a-9a36-d9b43d4fef6f")
 	)
+	(text "FSPICS0"
+		(exclude_from_sim no)
+		(at 35.56 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e2810bf-a85f-4d34-81dc-7bc4204fa3c1")
+	)
 	(text "PA12"
 		(exclude_from_sim no)
 		(at 335.026 43.18 0)
@@ -7258,6 +7337,17 @@
 			(justify left bottom)
 		)
 		(uuid "2f779f00-f455-4e6f-a924-e3db0404318d")
+	)
+	(text "RXD"
+		(exclude_from_sim no)
+		(at 378.46 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "313af2c1-d55c-4d9d-bc95-fa2e5f1a023a")
 	)
 	(text "     Auto program\n DTR RTS-->EN IO0\n 1        1        1      1\n 0        0        1      1\n 1        0        0      1\n 0        1        1      0"
 		(exclude_from_sim no)
@@ -7281,6 +7371,17 @@
 		)
 		(uuid "3806f2f5-151f-4344-8645-7b1ae9cf23be")
 	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 71.12 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dc1ca6a-98f2-4652-826f-09d97c83018a")
+	)
 	(text "RS485/GPIO.2"
 		(exclude_from_sim no)
 		(at 368.3 172.72 0)
@@ -7291,6 +7392,39 @@
 			(justify left bottom)
 		)
 		(uuid "3de95a8c-df12-4009-99ce-bb85ee01e6a2")
+	)
+	(text "RES"
+		(exclude_from_sim no)
+		(at 71.12 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42b5077c-9f2d-46dc-a090-72b4db63488f")
+	)
+	(text "SPI2_CS0"
+		(exclude_from_sim no)
+		(at 48.26 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43141dd4-25ed-45f9-9779-963e6d621426")
+	)
+	(text "FSPICLK"
+		(exclude_from_sim no)
+		(at 35.56 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "443bad9d-1183-4d46-9df8-14a4898a31c3")
 	)
 	(text "到电池软包\n"
 		(exclude_from_sim no)
@@ -7313,6 +7447,17 @@
 		)
 		(uuid "468532e6-4f74-4ed7-b222-4d5bf452abf7")
 	)
+	(text "SPI2_SCLK"
+		(exclude_from_sim no)
+		(at 48.26 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48172137-4c82-4f1c-b7d2-503703ee1a4e")
+	)
 	(text "CLKIN 可选外部时钟输入"
 		(exclude_from_sim no)
 		(at 115.57 68.58 0)
@@ -7323,6 +7468,39 @@
 			(justify left bottom)
 		)
 		(uuid "48cf711a-06b7-48ba-afc6-4d4cdda8b433")
+	)
+	(text "SPI2_SCLK"
+		(exclude_from_sim no)
+		(at 134.62 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f1f3837-346f-4564-b1f5-f0422578a2a5")
+	)
+	(text "FSPIQ"
+		(exclude_from_sim no)
+		(at 121.92 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51cbe09e-c236-4b8c-904e-d79c606c573e")
+	)
+	(text "DC"
+		(exclude_from_sim no)
+		(at 71.12 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "551337b7-bb10-46a4-bedf-be90db635740")
 	)
 	(text "~{WAKEUP}/GPIO.3"
 		(exclude_from_sim no)
@@ -7368,6 +7546,17 @@
 		)
 		(uuid "67b76dfa-bcd1-468e-9939-a82e2b9229d8")
 	)
+	(text "OLED_DATA_COMMAND"
+		(exclude_from_sim no)
+		(at 48.26 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6822db5c-4864-407c-bcf4-c701c1cc6e66")
+	)
 	(text "SUSPEND"
 		(exclude_from_sim no)
 		(at 368.3 160.02 0)
@@ -7390,6 +7579,17 @@
 		)
 		(uuid "6965778d-77fd-4418-9329-57fa51c0e3f4")
 	)
+	(text "RXD"
+		(exclude_from_sim no)
+		(at 137.16 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e12ee15-7ec4-4ea1-a92e-274f0a022496")
+	)
 	(text "ANT_RF"
 		(exclude_from_sim no)
 		(at 114.3 106.68 0)
@@ -7400,6 +7600,28 @@
 			(justify left bottom)
 		)
 		(uuid "733d94c4-8c89-43af-8dd0-34e8399e45ea")
+	)
+	(text "FSPIWP"
+		(exclude_from_sim no)
+		(at 121.92 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "737c7ceb-953c-461d-88a0-de8746310ea0")
+	)
+	(text "SDA1"
+		(exclude_from_sim no)
+		(at 118.11 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78004c0d-dae9-4a47-bf22-5c6e551ff046")
 	)
 	(text "~{DCD}"
 		(exclude_from_sim no)
@@ -7445,6 +7667,17 @@
 		)
 		(uuid "808f6d4a-9c0a-4431-878d-eae13b32dae0")
 	)
+	(text "SCL2"
+		(exclude_from_sim no)
+		(at 121.92 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "831f7620-a989-45c6-accd-05b784dc3294")
+	)
 	(text "~{RXT}/GPIO.1"
 		(exclude_from_sim no)
 		(at 368.3 170.18 0)
@@ -7455,6 +7688,28 @@
 			(justify left bottom)
 		)
 		(uuid "8483adc2-1412-450d-abb5-54368aa309e6")
+	)
+	(text "SDA1"
+		(exclude_from_sim no)
+		(at 121.92 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "894aa76b-84cc-4645-8793-4fff3f4dca14")
+	)
+	(text "D1"
+		(exclude_from_sim no)
+		(at 71.12 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d6240c7-87f0-49ef-bf1c-7f9a215c3c61")
 	)
 	(text "2.16V To 3.6V,75uA"
 		(exclude_from_sim no)
@@ -7489,6 +7744,17 @@
 			(justify left bottom)
 		)
 		(uuid "9613c0f1-33db-4bfc-ab89-222e3697d9c9")
+	)
+	(text "OLED_RESET"
+		(exclude_from_sim no)
+		(at 134.62 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa67970d-492e-4693-a94b-54baa16ccaf5")
 	)
 	(text "GPIO.6"
 		(exclude_from_sim no)
@@ -7535,6 +7801,50 @@
 		)
 		(uuid "b362bcad-83c8-4444-a9db-8eff745eee2f")
 	)
+	(text "FSPID"
+		(exclude_from_sim no)
+		(at 121.92 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3a66b18-f5f7-44a6-a439-980f6c062ac3")
+	)
+	(text "SPI2_MOSI"
+		(exclude_from_sim no)
+		(at 48.26 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4238c0c-143c-4edc-936a-b9867836bd9a")
+	)
+	(text "SPI2_MOSI"
+		(exclude_from_sim no)
+		(at 134.62 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b69afb4f-6afd-4d69-bfa3-a934dad05cd1")
+	)
+	(text "FSPIHD"
+		(exclude_from_sim no)
+		(at 121.92 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b80f62e4-f577-4d72-87c9-d4ea3f164502")
+	)
 	(text "~{RI}/CLK"
 		(exclude_from_sim no)
 		(at 368.3 154.94 0)
@@ -7545,6 +7855,28 @@
 			(justify left bottom)
 		)
 		(uuid "ba211c21-eebf-4bb6-8684-3c452bb3a593")
+	)
+	(text "SCL1"
+		(exclude_from_sim no)
+		(at 121.92 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba8a1fc6-0e0a-48b5-ba3d-9ba47a46c801")
+	)
+	(text "SCL2"
+		(exclude_from_sim no)
+		(at 224.79 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc109b8f-74df-4f20-ac62-651af7eb2629")
 	)
 	(text "| 引脚名称  | 描述                          | 备注                 |\n|----------|-------------|------------|\n| GND      | 电源地                       |                     |\n| VCC      | 电源 (3.3V~5V)               | 工作电压范围         |\n| D0       | SPI时钟线 (SPI_CLK)          |                     |\n| D1       | SPI数据线 (SPI_MOSI)         |                     |\n| RES      | 复位信号                     |                     |\n| DC       | 数据/命令选择脚               |                     |\n| CS       | 片选信号 (低电平有效)         | 不可悬空             |"
 		(exclude_from_sim yes)
@@ -7557,6 +7889,28 @@
 		)
 		(uuid "bc62c2a2-82b5-4e9b-bdc0-38ce2368687d")
 	)
+	(text "CS"
+		(exclude_from_sim no)
+		(at 71.12 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c07710c3-8150-462c-9896-2cbc2c686693")
+	)
+	(text "SDA2"
+		(exclude_from_sim no)
+		(at 224.79 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c11846f8-8189-4085-9867-86f40576e1db")
+	)
 	(text "USB_DN"
 		(exclude_from_sim no)
 		(at 317.5 152.4 0)
@@ -7567,6 +7921,17 @@
 			(justify left bottom)
 		)
 		(uuid "c7ce255e-9380-43f4-81ca-d517f583a873")
+	)
+	(text "OLED_RESET"
+		(exclude_from_sim no)
+		(at 48.26 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8ab1de9-1dce-480d-a01a-d0726ee91b1b")
 	)
 	(text "~{SUSPEND}"
 		(exclude_from_sim no)
@@ -7581,7 +7946,7 @@
 	)
 	(text "power supply"
 		(exclude_from_sim yes)
-		(at 179.07 143.51 0)
+		(at 214.63 149.86 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7591,6 +7956,17 @@
 			(justify left)
 		)
 		(uuid "d36a7ea8-35d3-416c-a1a7-0925b9f49cd1")
+	)
+	(text "FSPIQ"
+		(exclude_from_sim no)
+		(at 35.56 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d539bd4b-f35c-4623-b0f2-d9ea1ee10968")
 	)
 	(text "SSD1306"
 		(exclude_from_sim no)
@@ -7625,6 +8001,17 @@
 		)
 		(uuid "e14bba51-51cd-4db7-87b7-527774cec195")
 	)
+	(text "D0"
+		(exclude_from_sim no)
+		(at 71.12 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e60f48c7-d0fc-4671-a7f0-679b772bace0")
+	)
 	(text "DRDY 数据准备，中断引脚。内部被拉高"
 		(exclude_from_sim no)
 		(at 209.55 55.88 0)
@@ -7645,6 +8032,28 @@
 			(justify left bottom)
 		)
 		(uuid "ee30d0c2-bc1b-4e73-a8f0-c9b6e5e19792")
+	)
+	(text "SPI2_CS0"
+		(exclude_from_sim no)
+		(at 134.62 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f322d92a-f79a-42d1-a5e1-e46a09c64607")
+	)
+	(text "TXD"
+		(exclude_from_sim no)
+		(at 378.46 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbc3a6b9-168a-422a-9114-a5182ee49404")
 	)
 	(junction
 		(at 378.46 60.96)
@@ -7681,6 +8090,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1323ab7e-f62c-4026-9395-6e72aee5b135")
+	)
+	(junction
+		(at 218.44 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19820a52-d315-40d4-9d97-48e2ccba98c3")
 	)
 	(junction
 		(at 104.14 179.07)
@@ -7921,12 +8336,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b538bdc-a458-42ba-a248-3c7c15bc393d")
-	)
-	(junction
-		(at 218.44 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f60d5f9-6409-47a8-bac2-209fe1518082")
 	)
 	(junction
 		(at 116.84 186.69)
@@ -9528,7 +9937,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 64.77) (xy 72.39 64.77)
+			(xy 22.86 64.77) (xy 76.2 64.77)
 		)
 		(stroke
 			(width 0)
@@ -9628,7 +10037,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 59.69) (xy 72.39 59.69)
+			(xy 22.86 59.69) (xy 76.2 59.69)
 		)
 		(stroke
 			(width 0)
@@ -9848,7 +10257,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 67.31) (xy 72.39 67.31)
+			(xy 22.86 67.31) (xy 76.2 67.31)
 		)
 		(stroke
 			(width 0)
@@ -9928,7 +10337,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 54.61) (xy 72.39 54.61)
+			(xy 22.86 54.61) (xy 76.2 54.61)
 		)
 		(stroke
 			(width 0)
@@ -10308,7 +10717,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 52.07) (xy 72.39 52.07)
+			(xy 48.26 52.07) (xy 76.2 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10498,7 +10907,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 57.15) (xy 72.39 57.15)
+			(xy 22.86 57.15) (xy 76.2 57.15)
 		)
 		(stroke
 			(width 0)
@@ -10558,7 +10967,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 62.23) (xy 72.39 62.23)
+			(xy 22.86 62.23) (xy 76.2 62.23)
 		)
 		(stroke
 			(width 0)
@@ -10916,16 +11325,6 @@
 		)
 		(uuid "0d9f7082-fc6e-4e9b-ae1e-5fabb8962720")
 	)
-	(label "RXD"
-		(at 137.16 196.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0dadd75e-469c-496e-a836-9e08bec1a8d8")
-	)
 	(label "CHIP_PU"
 		(at 33.02 204.47 0)
 		(effects
@@ -10935,16 +11334,6 @@
 			(justify left bottom)
 		)
 		(uuid "0e3bf792-b0c9-43e2-99b2-47a523925cfe")
-	)
-	(label "FSPICLK"
-		(at 121.92 242.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10a5b0d8-66a0-4d6e-b5d6-1388b969ee78")
 	)
 	(label "GPIO4"
 		(at 111.76 222.25 0)
@@ -11006,26 +11395,6 @@
 		)
 		(uuid "26ab8e3a-0d4e-48bd-b0b6-8add6b3efbb2")
 	)
-	(label "FSPIWP"
-		(at 121.92 247.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b8bfb4f-7179-47c3-bba7-3fc98c5ea8f7")
-	)
-	(label "FSPICLK"
-		(at 35.56 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b982a02-c30e-44d2-bc66-108c48e168ff")
-	)
 	(label "USB-"
 		(at 349.25 38.1 0)
 		(effects
@@ -11066,16 +11435,6 @@
 		)
 		(uuid "2ec4002b-ae8d-4502-8f34-d8fc29648c95")
 	)
-	(label "RXD"
-		(at 378.46 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31458b73-1cbe-4a92-8a75-9a6b774b2a3b")
-	)
 	(label "GPIO7"
 		(at 25.4 62.23 0)
 		(effects
@@ -11085,26 +11444,6 @@
 			(justify left bottom)
 		)
 		(uuid "3147cddb-4da2-43ae-a5a4-e8094bba2b66")
-	)
-	(label "SDA1"
-		(at 121.92 222.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "338de528-19d0-4f1f-88ed-dbf8c403e9e5")
-	)
-	(label "FSPIHD"
-		(at 121.92 234.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3529ad32-e9ba-40ac-94f4-09217f3795fa")
 	)
 	(label "SPICS0"
 		(at 195.58 104.14 0)
@@ -11166,16 +11505,6 @@
 		)
 		(uuid "3be7f556-e1c0-4d97-aee0-01ea9c32da61")
 	)
-	(label "SCL1"
-		(at 118.11 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c5243e1-e22c-4a1d-bd0a-24fcd2d1aca6")
-	)
 	(label "GPIO4"
 		(at 110.49 45.72 0)
 		(effects
@@ -11215,16 +11544,6 @@
 			(justify left bottom)
 		)
 		(uuid "3ff4dca0-3afe-4c8a-a9c3-b999c5db6d28")
-	)
-	(label "OLED_RESET"
-		(at 134.62 229.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "40e3a19b-9aeb-4e7e-a1d6-b97349989c9e")
 	)
 	(label "SPIHD"
 		(at 33.02 242.57 0)
@@ -11266,16 +11585,6 @@
 		)
 		(uuid "49036c09-2952-4b85-9133-758e83a1ba72")
 	)
-	(label "SPI2_SCLK"
-		(at 134.62 242.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "496e0fa7-b654-4f9e-9479-621fe3504e1e")
-	)
 	(label "GPIO41"
 		(at 33.02 232.41 0)
 		(effects
@@ -11305,26 +11614,6 @@
 			(justify left bottom)
 		)
 		(uuid "4b3a5928-175c-49c8-a9ed-8bd7a6089f97")
-	)
-	(label "SPI2_MOSI"
-		(at 48.26 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e0974a2-ec63-495b-93b6-172f7293147e")
-	)
-	(label "FSPIQ"
-		(at 121.92 245.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50f69a07-0272-4143-b0cb-f44be74f46f1")
 	)
 	(label "GPIO10"
 		(at 111.76 237.49 0)
@@ -11366,16 +11655,6 @@
 		)
 		(uuid "5cf43ade-f76e-4908-9336-0d3b08b42a22")
 	)
-	(label "SPI2_CS0"
-		(at 134.62 237.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "63aa22b5-84f7-4475-9506-be6048949dab")
-	)
 	(label "SPIHD"
 		(at 195.58 116.84 0)
 		(effects
@@ -11406,26 +11685,6 @@
 		)
 		(uuid "66aa4ba4-092e-418c-a526-bfdeb0ab43dd")
 	)
-	(label "SPI2_CS0"
-		(at 48.26 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "67cb0ea7-98fe-4fbc-9de2-171ef867e4d3")
-	)
-	(label "FSPIQ"
-		(at 35.56 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "67cf3666-a62e-4a09-992e-d1069cd54116")
-	)
 	(label "GPIO40"
 		(at 33.02 229.87 0)
 		(effects
@@ -11435,16 +11694,6 @@
 			(justify left bottom)
 		)
 		(uuid "68be8972-c65b-4215-bbe7-c26ce99ca8e0")
-	)
-	(label "SDA2"
-		(at 121.92 227.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6bcbdc89-60af-4026-9ca8-82ff7ff4b53b")
 	)
 	(label "XTAL_P"
 		(at 27.94 101.6 0)
@@ -11456,16 +11705,6 @@
 		)
 		(uuid "6bf7afb7-7c7c-4d27-bcd1-0e3e09bcdc78")
 	)
-	(label "FSPID"
-		(at 121.92 240.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ce62059-39da-463a-a4f5-b6565c26a048")
-	)
 	(label "SPIWP"
 		(at 195.58 114.3 0)
 		(effects
@@ -11476,16 +11715,6 @@
 		)
 		(uuid "6d831a66-39ad-46fb-912e-c83e4ad1489a")
 	)
-	(label "SDA2"
-		(at 224.79 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d8d1802-860e-4ee7-8972-22fa0ee4cded")
-	)
 	(label "GPIO1"
 		(at 111.76 214.63 0)
 		(effects
@@ -11495,16 +11724,6 @@
 			(justify left bottom)
 		)
 		(uuid "6f6dab5a-86bf-43e6-8295-95407a91f044")
-	)
-	(label "OLED_DATA_COMMAND"
-		(at 48.26 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6fdb842f-d7ee-4cef-a28f-c9715d679933")
 	)
 	(label "IIC_AD0"
 		(at 118.11 48.26 0)
@@ -11566,16 +11785,6 @@
 		)
 		(uuid "790c6229-08af-433f-9fe7-002dda1de0e0")
 	)
-	(label "FSPICS0"
-		(at 35.56 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7aa53466-8171-4017-9633-875fcc4100ff")
-	)
 	(label "SPICLK"
 		(at 195.58 106.68 0)
 		(effects
@@ -11616,16 +11825,6 @@
 		)
 		(uuid "83e2b274-332f-4f5b-b0bd-74f8ab257d89")
 	)
-	(label "FSPICS0"
-		(at 121.92 237.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8859db44-3482-4625-a222-4c8fc5a96554")
-	)
 	(label "USB+"
 		(at 349.25 43.18 0)
 		(effects
@@ -11635,16 +11834,6 @@
 			(justify left bottom)
 		)
 		(uuid "8902e7ce-4f68-46b3-8e1c-8f6da82a92a2")
-	)
-	(label "TXD"
-		(at 137.16 199.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8daa06a3-0e22-4525-a545-f316a39d4a40")
 	)
 	(label "GPIO16"
 		(at 33.02 212.09 0)
@@ -11665,16 +11854,6 @@
 			(justify left bottom)
 		)
 		(uuid "90da1eb5-f398-42e2-ab7e-ad758e0b3fac")
-	)
-	(label "TXD"
-		(at 378.46 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "921951d5-6498-4346-84a1-2e789212f403")
 	)
 	(label "D+"
 		(at 327.66 154.94 0)
@@ -11705,16 +11884,6 @@
 			(justify left bottom)
 		)
 		(uuid "9de61332-43ec-4151-8fae-09c251c3340a")
-	)
-	(label "OLED_RESET"
-		(at 48.26 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9fbc8dc9-ce37-4e6e-9a2a-566eda027297")
 	)
 	(label "SPID"
 		(at 33.02 255.27 0)
@@ -11796,16 +11965,6 @@
 		)
 		(uuid "b524e070-75f9-4ee6-a767-fd95d1918c0f")
 	)
-	(label "SPI2_SCLK"
-		(at 48.26 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bdb18702-df53-4a16-afe9-c285c91228b6")
-	)
 	(label "SPIQ"
 		(at 33.02 252.73 0)
 		(effects
@@ -11835,16 +11994,6 @@
 			(justify left bottom)
 		)
 		(uuid "c878ddef-1e91-49d0-9136-57f6cb214aed")
-	)
-	(label "SDA1"
-		(at 118.11 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8f01871-e191-45ab-ad45-6313c6e39dd8")
 	)
 	(label "GPIO15"
 		(at 33.02 209.55 0)
@@ -11896,16 +12045,6 @@
 		)
 		(uuid "dcb95a38-2ada-4d10-b7a0-fdf0bae91de2")
 	)
-	(label "SCL2"
-		(at 224.79 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd3be1ba-7944-41d1-bba6-e99f7c3c24da")
-	)
 	(label "GPIO11"
 		(at 111.76 240.03 0)
 		(effects
@@ -11925,16 +12064,6 @@
 			(justify left bottom)
 		)
 		(uuid "df149637-6d29-4a7c-bec2-73cb01c26fb2")
-	)
-	(label "SCL1"
-		(at 121.92 219.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df88bc8d-630b-4f57-88c8-fec2a2f8237d")
 	)
 	(label "EN"
 		(at 363.22 73.66 0)
@@ -11986,16 +12115,6 @@
 		)
 		(uuid "ec4945d5-03ee-46e3-9d8b-13aa3dac34f2")
 	)
-	(label "SCL2"
-		(at 121.92 224.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f17e2857-ce25-447d-b830-768fc3cefff5")
-	)
 	(label "GPIO10"
 		(at 25.4 67.31 0)
 		(effects
@@ -12006,16 +12125,6 @@
 		)
 		(uuid "f3a3af53-a43c-4232-b5f9-5084a496cd75")
 	)
-	(label "SPI2_MOSI"
-		(at 134.62 245.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f8323ea3-e561-4a77-b2ad-27c9de8db798")
-	)
 	(label "AUX_CL"
 		(at 171.45 50.8 180)
 		(effects
@@ -12025,16 +12134,6 @@
 			(justify right bottom)
 		)
 		(uuid "f844656c-5241-471c-ba9f-496e8fdda642")
-	)
-	(label "OLED_DATA_COMMAND"
-		(at 134.62 232.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fb4578fd-f116-483f-a2f5-edba577f303e")
 	)
 	(label "GPIO39"
 		(at 33.02 227.33 0)
@@ -13672,6 +13771,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x07")
+		(at 81.28 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "302a8591-e27c-450e-84cf-593c9c55a31c")
+		(property "Reference" "J2"
+			(at 83.82 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SSD1306_7pin"
+			(at 83.82 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+			(at 81.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "8ac28c45-008b-4c4a-92d2-b6438c607e30")
+		)
+		(pin "2"
+			(uuid "84ac48a1-c43a-45fc-89bf-c6fc44ec518f")
+		)
+		(pin "5"
+			(uuid "900f81af-e5d4-44b9-87e8-45772adae468")
+		)
+		(pin "1"
+			(uuid "81a973ea-5a62-4572-85e8-88c9f70e1f5f")
+		)
+		(pin "4"
+			(uuid "b608c199-1f5b-4527-87f6-7a3a4374e7b4")
+		)
+		(pin "6"
+			(uuid "8aec1b1f-5b0a-406c-acbb-8fff03140904")
+		)
+		(pin "3"
+			(uuid "24ec31b3-b09f-497b-b362-04f78226c4bd")
+		)
+		(instances
+			(project ""
+				(path "/a860206b-2407-4cb2-a80b-3f5adc4ff387"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Resistor_AKL:R_1206")
 		(at 299.72 156.21 180)
 		(unit 1)
@@ -14041,7 +14225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm"
+		(property "Footprint" "Library:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm"
 			(at 76.2 280.67 0)
 			(effects
 				(font
@@ -15134,6 +15318,97 @@
 			(project "IMU"
 				(path "/a860206b-2407-4cb2-a80b-3f5adc4ff387"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_Flash:W25Q128JVE")
+		(at 215.9 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ac446be-9282-4ef9-84ee-f9acf6d066b7")
+		(property "Reference" "U7"
+			(at 227.33 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q128JVE"
+			(at 227.33 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+			(at 215.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+			(at 215.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "fa66cbd2-864d-4984-ac11-c75f80bfb425")
+		)
+		(pin "3"
+			(uuid "86a700e1-f3b4-4f5f-bf2b-f2152618f3ef")
+		)
+		(pin "1"
+			(uuid "cb8da52c-da23-4b84-8507-cad3ec07d026")
+		)
+		(pin "9"
+			(uuid "00fab6f1-0f1d-4cf1-a7d5-a4fd1dcd485b")
+		)
+		(pin "5"
+			(uuid "b4f1b275-c108-4482-825f-925b2209ec2c")
+		)
+		(pin "2"
+			(uuid "9ffc8cd9-5bf8-4ff5-9ce7-4014da7506e4")
+		)
+		(pin "7"
+			(uuid "229dcc09-5962-41a1-b3ec-73a0ebe3bb73")
+		)
+		(pin "8"
+			(uuid "ff8b0bc9-3c4c-4b14-8abe-8265057f643e")
+		)
+		(pin "4"
+			(uuid "d2e38d99-67da-4e42-bfc6-015e1804e9e9")
+		)
+		(instances
+			(project ""
+				(path "/a860206b-2407-4cb2-a80b-3f5adc4ff387"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -17597,100 +17872,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:SSD1306_7pin")
-		(at 77.47 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9efae70b-4fe0-4ae3-a876-36e33785d469")
-		(property "Reference" "J2"
-			(at 80.01 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SSD1306_7pin"
-			(at 80.01 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "taobao" "https://item.taobao.com/item.htm?abbucket=4&detail_redpacket_pop=true&id=675209717938&ltk2=1748529838043acxsexau2uftghrpi2qz2i&ns=1&priceTId=undefined&query=SSD1306%20spi%207&skuId=5031454707233&spm=a21n57.1.hoverItem.1&utparam=%7B%22aplus_abtest%22%3A%22f56e4581ac660d4c7658252119df4376%22%7D&xxc=taobaoSearch"
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "VCC"
-			(uuid "1e4ef86a-37c0-40c9-991c-dc6437cbd980")
-		)
-		(pin "DC"
-			(uuid "9c0b008f-1708-48c9-ab13-62e9d5917dd4")
-		)
-		(pin "GND"
-			(uuid "d4dbaed8-f4f1-4370-92d9-5540838eeaa3")
-		)
-		(pin "D0"
-			(uuid "7373e5a9-ff03-4c4d-996c-8958c2a5b2e4")
-		)
-		(pin "D1"
-			(uuid "7090001c-14cf-44a7-8ec8-1eb4bc7cb875")
-		)
-		(pin "CS"
-			(uuid "96f50f92-02a3-4d29-b641-e127820f22db")
-		)
-		(pin "RES"
-			(uuid "d5712a04-b6b2-46c4-addc-88d872c4fe33")
-		)
-		(instances
-			(project ""
-				(path "/a860206b-2407-4cb2-a80b-3f5adc4ff387"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_1206")
 		(at 71.12 107.95 0)
 		(mirror y)
@@ -18063,7 +18244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm"
+		(property "Footprint" "Library:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm"
 			(at 383.54 196.85 0)
 			(effects
 				(font
@@ -18692,7 +18873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_4ms_Resistor:R_0603"
 			(at 40.64 101.6 0)
 			(effects
 				(font
@@ -19309,97 +19490,6 @@
 			(project "IMU"
 				(path "/a860206b-2407-4cb2-a80b-3f5adc4ff387"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_Flash:W25Q128JVE")
-		(at 215.9 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfd90037-eabb-458f-9f7d-4eebe644fc2e")
-		(property "Reference" "U3"
-			(at 227.33 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FLASH-3V3"
-			(at 227.33 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
-			(at 215.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 215.9 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
-			(at 215.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "16b72ebb-74c5-4a50-863e-b07a487ee74b")
-		)
-		(pin "2"
-			(uuid "258c2f9a-b481-4e2f-b636-c72ad15e077b")
-		)
-		(pin "8"
-			(uuid "aa749b90-e118-449f-8639-0828911bf90e")
-		)
-		(pin "9"
-			(uuid "45da50ae-1c07-4851-9407-1e3803ff2bc4")
-		)
-		(pin "6"
-			(uuid "b596fab9-8ef4-4582-8663-7656edc7ec7f")
-		)
-		(pin "5"
-			(uuid "d0f77026-ba0e-4a4d-b267-f2440b8bca2d")
-		)
-		(pin "7"
-			(uuid "5a20a784-5a78-4bf7-b64f-d11db6b12cb9")
-		)
-		(pin "1"
-			(uuid "4c390cb2-8503-44d0-9f7a-e08c816a0bf8")
-		)
-		(pin "3"
-			(uuid "e54ecafc-face-4af4-af8b-c7c7db72d828")
-		)
-		(instances
-			(project "IMU"
-				(path "/a860206b-2407-4cb2-a80b-3f5adc4ff387"
-					(reference "U3")
 					(unit 1)
 				)
 			)
