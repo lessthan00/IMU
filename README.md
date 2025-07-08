@@ -1,4 +1,6 @@
-# IMU_ESP32S3_MPU6050_HMC5883L_SSD1306  
+# IMU  
+
+<img src="./IMU.png" style="display:block; margin:auto; width:50%;" />
   
 ## 基于ESP32的IMU系统与OLED显示屏  
   
