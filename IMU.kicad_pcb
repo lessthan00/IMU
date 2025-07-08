@@ -16517,7 +16517,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "74bf96c8-4971-401f-90e1-133d6a761f9c")
+			(uuid "7e786cba-6927-4241-8a4d-6742f5d07615")
 		)
 		(pad "3" smd rect
 			(at -9.5 -3.95 90)
@@ -16535,7 +16535,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "74bf96c8-4971-401f-90e1-133d6a761f9c")
+			(uuid "6946c3f5-cdf7-46c2-a8e5-cf38e6e43e83")
 		)
 		(pad "3" smd rect
 			(at -8.25 -2.6 90)
@@ -16553,7 +16553,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "74bf96c8-4971-401f-90e1-133d6a761f9c")
+			(uuid "38f1e361-2755-4591-92e9-ad482ca84366")
 		)
 		(pad "3" smd rect
 			(at -7 -3.95 90)
@@ -16571,7 +16571,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "74bf96c8-4971-401f-90e1-133d6a761f9c")
+			(uuid "d58ecc8f-df1b-42ca-9a78-586d4d72fea8")
 		)
 		(pad "3" smd rect
 			(at -5.85 -5.3 90)
@@ -16589,7 +16589,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "74bf96c8-4971-401f-90e1-133d6a761f9c")
+			(uuid "1c3b7198-30f1-434f-b81b-8bf968442376")
 		)
 		(pad "3" smd rect
 			(at -4.7 -3.95 90)
@@ -16607,7 +16607,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "74bf96c8-4971-401f-90e1-133d6a761f9c")
+			(uuid "72b10c9d-7b38-4c24-a702-380bb3f0ebe9")
 		)
 		(pad "3" smd rect
 			(at -3.4 -2.6 90)
@@ -16625,7 +16625,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "74bf96c8-4971-401f-90e1-133d6a761f9c")
+			(uuid "e7c2cd62-f395-4535-a6eb-51d9a99e4e97")
 		)
 		(pad "3" smd rect
 			(at -2.1 -3.95 90)
@@ -16643,7 +16643,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "74bf96c8-4971-401f-90e1-133d6a761f9c")
+			(uuid "a99bc3a3-790a-495a-8090-d2e79bf1f7dc")
 		)
 		(pad "3" smd rect
 			(at 0 -2.85 90)
@@ -16661,7 +16661,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "74bf96c8-4971-401f-90e1-133d6a761f9c")
+			(uuid "2dc7d5ad-7e92-4772-a223-4113c31f2cb8")
 		)
 		(pad "3" smd rect
 			(at 0.1 -5.3 90)
@@ -16679,7 +16679,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "74bf96c8-4971-401f-90e1-133d6a761f9c")
+			(uuid "0263d862-ca8a-42fc-870a-126fe21d8889")
 		)
 		(pad "3" smd rect
 			(at 2.25 -2.85 90)
@@ -16697,7 +16697,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "74bf96c8-4971-401f-90e1-133d6a761f9c")
+			(uuid "22c5c2aa-dddf-4e1c-b07c-f482e12471eb")
 		)
 		(zone
 			(net 0)
@@ -24587,6 +24587,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND"
+		(at 118.54 154.45 0)
+		(layer "F.SilkS")
+		(uuid "369ea9ad-6028-4e4a-969b-dbaeda1c9d70")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "TDO"
 		(locked yes)
 		(at 160.58 129.769 0)
@@ -24634,6 +24647,19 @@
 		(at 147.88 129.769 0)
 		(layer "F.SilkS")
 		(uuid "4514b2ff-f11e-42e2-bc36-ded61ed992ac")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RES"
+		(at 134.01 152.51 0)
+		(layer "F.SilkS")
+		(uuid "54d2f6c2-cdf8-488b-ac73-ad082746cc94")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -24713,11 +24739,37 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "D0"
+		(at 129.67 152.45 0)
+		(layer "F.SilkS")
+		(uuid "a308fd02-7993-423a-9fb5-42bbfcab1abd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "电池软包"
 		(locked yes)
 		(at 184.07 119.34 90)
 		(layer "F.SilkS")
 		(uuid "a3b5e2c5-3c74-4a67-ba02-184755eb1bb9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DC"
+		(at 136.63 152.57 0)
+		(layer "F.SilkS")
+		(uuid "aaf205e5-dc1b-4b8f-8759-69e213cd9199")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -24741,6 +24793,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "VCC"
+		(at 121.54 154.45 0)
+		(layer "F.SilkS")
+		(uuid "befb72f9-32d4-4ae2-9c76-09ff77a7e80c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "保留"
 		(locked yes)
 		(at 177.78 155.69 0)
@@ -24755,11 +24820,37 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "CS"
+		(at 142.09 154.56 0)
+		(layer "F.SilkS")
+		(uuid "d5b22ee9-c15b-4bc0-bee3-6d8b3fa00b23")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "TDI"
 		(locked yes)
 		(at 158.04 129.769 0)
 		(layer "F.SilkS")
 		(uuid "d95f5e8e-3c87-4827-bcfb-542290222928")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D1"
+		(at 132.2 152.54 0)
+		(layer "F.SilkS")
+		(uuid "da6f5db4-3897-4937-91c8-ee7c17b71800")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -24847,6 +24938,19 @@
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SPI_OLED"
+		(at 117.83 152.88 0)
+		(layer "F.SilkS")
+		(uuid "f8311fb0-48b4-4d8d-b279-e1577ba7fdb1")
+		(effects
+			(font
+				(size 0.8 0.8)
 				(thickness 0.15)
 				(bold yes)
 			)
