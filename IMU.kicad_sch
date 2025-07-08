@@ -2317,7 +2317,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MPU-6050_1"
+		(symbol "Library:MPU-6050"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2376,7 +2376,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MPU-6050_1_0_1"
+			(symbol "MPU-6050_0_1"
 				(rectangle
 					(start -12.7 12.7)
 					(end 12.7 -12.7)
@@ -2389,27 +2389,9 @@
 					)
 				)
 			)
-			(symbol "MPU-6050_1_1_1"
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "MPU-6050_1_1"
 				(pin bidirectional line
-					(at -17.78 5.08 0)
+					(at -17.78 7.62 0)
 					(length 5.08)
 					(name "SDA"
 						(effects
@@ -2419,6 +2401,24 @@
 						)
 					)
 					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3350,7 +3350,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Capacitor_AKL:C_1206"
+		(symbol "PCM_Capacitor_AKL:C_0805"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3369,7 +3369,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_1206"
+			(property "Value" "C_0805"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -3378,7 +3378,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+			(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -3396,7 +3396,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+			(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3405,7 +3405,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor ceramic chip mlcc smd 1206"
+			(property "ki_keywords" "cap capacitor ceramic chip mlcc smd 0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3423,7 +3423,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_1206_0_1"
+			(symbol "C_0805_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -3449,7 +3449,7 @@
 					)
 				)
 			)
-			(symbol "C_1206_0_2"
+			(symbol "C_0805_0_2"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy -0.381 -0.381)
@@ -3523,7 +3523,7 @@
 					)
 				)
 			)
-			(symbol "C_1206_1_1"
+			(symbol "C_0805_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -3561,258 +3561,7 @@
 					)
 				)
 			)
-			(symbol "C_1206_1_2"
-				(pin passive line
-					(at -2.54 -2.54 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_Capacitor_US_AKL:C_1206"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_1206"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor ceramic chip mlcc smd 1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_1206_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1206_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -0.381 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy -1.651 0.635)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy 0.635 -1.651)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 0.381) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.508) (xy -0.635 1.651)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.508) (xy 1.651 -0.635)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1206_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "C_1206_1_2"
+			(symbol "C_0805_1_2"
 				(pin passive line
 					(at -2.54 -2.54 90)
 					(length 0)
@@ -5821,7 +5570,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_LED_AKL:LED_1206"
+		(symbol "PCM_LED_AKL:LED_0805"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5840,7 +5589,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_1206"
+			(property "Value" "LED_0805"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -5848,7 +5597,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_LED_SMD_AKL:LED_1206_3216Metric"
+			(property "Footprint" "PCM_LED_SMD_AKL:LED_0805_2012Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5866,7 +5615,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD LED, 1206, Alternate KiCad Library"
+			(property "Description" "SMD LED, 0805, Alternate KiCad Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5875,7 +5624,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED diode generic smd 1206"
+			(property "ki_keywords" "LED diode generic smd 0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5893,7 +5642,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_1206_0_1"
+			(symbol "LED_0805_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -6027,7 +5776,7 @@
 					)
 				)
 			)
-			(symbol "LED_1206_0_2"
+			(symbol "LED_0805_0_2"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy 2.54 2.54)
@@ -6113,7 +5862,7 @@
 					)
 				)
 			)
-			(symbol "LED_1206_1_1"
+			(symbol "LED_0805_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -6151,7 +5900,7 @@
 					)
 				)
 			)
-			(symbol "LED_1206_1_2"
+			(symbol "LED_0805_1_2"
 				(pin passive line
 					(at -2.54 -2.54 0)
 					(length 0)
@@ -6191,7 +5940,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Resistor_AKL:R_1206"
+		(symbol "PCM_Resistor_AKL:R_0805"
 			(pin_numbers
 				(hide yes)
 			)
@@ -6210,7 +5959,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "R_1206"
+			(property "Value" "R_0805"
 				(at 2.54 -1.27 0)
 				(effects
 					(font
@@ -6219,7 +5968,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+			(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -6237,7 +5986,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6246,7 +5995,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor eu  smd 1206"
+			(property "ki_keywords" "R res resistor eu  smd 0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6264,7 +6013,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_1206_0_1"
+			(symbol "R_0805_0_1"
 				(rectangle
 					(start -1.016 2.54)
 					(end 1.016 -2.54)
@@ -6277,7 +6026,7 @@
 					)
 				)
 			)
-			(symbol "R_1206_0_2"
+			(symbol "R_0805_0_2"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy -1.524 -1.524)
@@ -6315,7 +6064,7 @@
 					)
 				)
 			)
-			(symbol "R_1206_1_1"
+			(symbol "R_0805_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -6353,7 +6102,7 @@
 					)
 				)
 			)
-			(symbol "R_1206_1_2"
+			(symbol "R_0805_1_2"
 				(pin passive line
 					(at -2.54 -2.54 0)
 					(length 0)
@@ -9477,6 +9226,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 124.46) (xy 218.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3102741f-8225-4f87-a480-e3e0d0534f94")
+	)
+	(wire
+		(pts
 			(xy 140.97 22.86) (xy 140.97 33.02)
 		)
 		(stroke
@@ -10477,6 +10236,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 93.98) (xy 231.14 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89bc46bb-f581-4f1b-8fb5-62bdd2ea63ad")
+	)
+	(wire
+		(pts
 			(xy 109.22 252.73) (xy 121.92 252.73)
 		)
 		(stroke
@@ -10907,6 +10676,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 93.98) (xy 231.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9135586-3cfc-4c7c-83d6-3fd65655cfa5")
+	)
+	(wire
+		(pts
 			(xy 91.44 186.69) (xy 104.14 186.69)
 		)
 		(stroke
@@ -11084,6 +10863,16 @@
 			(type default)
 		)
 		(uuid "b80241e7-e022-45ba-9541-ca04366f3d59")
+	)
+	(wire
+		(pts
+			(xy 231.14 102.87) (xy 231.14 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e6f0a9-df86-4fc5-a9a6-642fdc38f5c3")
 	)
 	(wire
 		(pts
@@ -12345,7 +12134,7 @@
 		)
 		(uuid "4b3755f1-6b6f-41ab-a5c5-8f28bf9a723e")
 	)
-	(label "IO0"
+	(label "GPIO0"
 		(at 208.28 241.3 0)
 		(effects
 			(font
@@ -13088,7 +12877,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 393.7 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13115,7 +12904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 393.7 45.72 0)
 			(effects
 				(font
@@ -13133,7 +12922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 393.7 34.29 0)
 			(effects
 				(font
@@ -13158,7 +12947,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 396.24 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13185,7 +12974,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 396.24 157.48 0)
 			(effects
 				(font
@@ -13203,7 +12992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 396.24 168.91 0)
 			(effects
 				(font
@@ -13492,7 +13281,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 116.84 182.88 0)
 		(mirror y)
 		(unit 1)
@@ -13520,7 +13309,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 115.8748 186.69 0)
 			(effects
 				(font
@@ -13538,7 +13327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 116.84 182.88 0)
 			(effects
 				(font
@@ -13629,7 +13418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 127 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13656,7 +13445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 127.9652 114.3 0)
 			(effects
 				(font
@@ -13674,7 +13463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -13831,7 +13620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 299.72 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13858,7 +13647,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 299.72 134.62 0)
 			(effects
 				(font
@@ -13876,7 +13665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 299.72 146.05 0)
 			(effects
 				(font
@@ -13901,7 +13690,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 203.2 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13928,7 +13717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -13946,7 +13735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 203.2 36.83 0)
 			(effects
 				(font
@@ -14215,7 +14004,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 256.54 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14242,7 +14031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 257.5052 40.64 0)
 			(effects
 				(font
@@ -14260,7 +14049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 256.54 36.83 0)
 			(effects
 				(font
@@ -14285,7 +14074,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 156.21 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14312,7 +14101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 157.1752 30.48 0)
 			(effects
 				(font
@@ -14330,7 +14119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 156.21 26.67 0)
 			(effects
 				(font
@@ -14491,7 +14280,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 378.46 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14518,7 +14307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 379.4252 124.46 0)
 			(effects
 				(font
@@ -14536,7 +14325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 378.46 120.65 0)
 			(effects
 				(font
@@ -14778,7 +14567,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 299.72 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14805,7 +14594,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 299.72 144.78 0)
 			(effects
 				(font
@@ -14823,7 +14612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 299.72 156.21 0)
 			(effects
 				(font
@@ -14914,7 +14703,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 213.36 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14941,7 +14730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 213.36 48.26 0)
 			(effects
 				(font
@@ -14959,7 +14748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 213.36 36.83 0)
 			(effects
 				(font
@@ -14984,7 +14773,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 93.98 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15011,7 +14800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 94.9452 163.83 0)
 			(effects
 				(font
@@ -15029,7 +14818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 93.98 160.02 0)
 			(effects
 				(font
@@ -15054,7 +14843,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 248.92 209.55 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15079,7 +14868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 245.11 210.5152 0)
 			(effects
 				(font
@@ -15097,7 +14886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 248.92 209.55 0)
 			(effects
 				(font
@@ -15423,7 +15212,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_US_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 36.83 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15448,7 +15237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 40.64 46.0248 0)
 			(effects
 				(font
@@ -15466,7 +15255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 36.83 46.99 0)
 			(effects
 				(font
@@ -15628,7 +15417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 104.14 182.88 0)
 		(mirror y)
 		(unit 1)
@@ -15656,7 +15445,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 103.1748 186.69 0)
 			(effects
 				(font
@@ -15674,7 +15463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 104.14 182.88 0)
 			(effects
 				(font
@@ -15765,7 +15554,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 110.49 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15792,7 +15581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 110.49 48.26 0)
 			(effects
 				(font
@@ -15810,7 +15599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 110.49 36.83 0)
 			(effects
 				(font
@@ -15835,7 +15624,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_LED_AKL:LED_1206")
+		(lib_id "PCM_LED_AKL:LED_0805")
 		(at 393.7 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15861,7 +15650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_1206_3216Metric"
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_0805_2012Metric"
 			(at 393.7 48.26 0)
 			(effects
 				(font
@@ -15879,7 +15668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD LED, 1206, Alternate KiCad Library"
+		(property "Description" "SMD LED, 0805, Alternate KiCad Library"
 			(at 393.7 48.26 0)
 			(effects
 				(font
@@ -16105,7 +15894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 91.44 182.88 0)
 		(mirror y)
 		(unit 1)
@@ -16133,7 +15922,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 90.4748 186.69 0)
 			(effects
 				(font
@@ -16151,7 +15940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 91.44 182.88 0)
 			(effects
 				(font
@@ -16260,7 +16049,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 256.54 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16287,7 +16076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 257.5052 60.96 0)
 			(effects
 				(font
@@ -16305,7 +16094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 256.54 57.15 0)
 			(effects
 				(font
@@ -16330,7 +16119,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 336.55 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16355,7 +16144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 347.98 93.98 0)
 			(effects
 				(font
@@ -16373,7 +16162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 336.55 93.98 0)
 			(effects
 				(font
@@ -16398,7 +16187,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 240.03 254 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16423,7 +16212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 236.22 254.9652 0)
 			(effects
 				(font
@@ -16441,7 +16230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 240.03 254 0)
 			(effects
 				(font
@@ -16623,7 +16412,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 358.14 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16650,7 +16439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 358.14 50.8 0)
 			(effects
 				(font
@@ -16668,7 +16457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 358.14 39.37 0)
 			(effects
 				(font
@@ -17031,7 +16820,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 22.86 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17058,7 +16847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 23.8252 171.45 0)
 			(effects
 				(font
@@ -17076,7 +16865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 22.86 167.64 0)
 			(effects
 				(font
@@ -17101,7 +16890,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 45.72 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17128,7 +16917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 46.6852 186.69 0)
 			(effects
 				(font
@@ -17146,7 +16935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 45.72 182.88 0)
 			(effects
 				(font
@@ -17171,7 +16960,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 81.28 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17198,7 +16987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 82.2452 171.45 0)
 			(effects
 				(font
@@ -17216,7 +17005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 81.28 167.64 0)
 			(effects
 				(font
@@ -17241,7 +17030,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 60.96 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17268,7 +17057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 61.9252 171.45 0)
 			(effects
 				(font
@@ -17286,7 +17075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 60.96 167.64 0)
 			(effects
 				(font
@@ -17311,7 +17100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 210.82 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17338,7 +17127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 211.7852 171.45 0)
 			(effects
 				(font
@@ -17356,7 +17145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 210.82 167.64 0)
 			(effects
 				(font
@@ -17381,7 +17170,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 200.66 209.55 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17406,7 +17195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 196.85 210.5152 0)
 			(effects
 				(font
@@ -17424,7 +17213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 200.66 209.55 0)
 			(effects
 				(font
@@ -17449,7 +17238,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MPU-6050_1")
 		(lib_id "Library:MPU-6050")
 		(at 143.51 50.8 0)
 		(unit 1)
@@ -17725,7 +17513,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 193.04 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17752,7 +17540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 193.04 88.9 0)
 			(effects
 				(font
@@ -17770,7 +17558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 193.04 100.33 0)
 			(effects
 				(font
@@ -17974,7 +17762,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 173.99 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18001,7 +17789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 174.9552 71.12 0)
 			(effects
 				(font
@@ -18019,7 +17807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 173.99 67.31 0)
 			(effects
 				(font
@@ -18176,7 +17964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 35.56 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18203,7 +17991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 36.5252 171.45 0)
 			(effects
 				(font
@@ -18221,7 +18009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 35.56 167.64 0)
 			(effects
 				(font
@@ -18474,7 +18262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 269.24 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18501,7 +18289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 270.2052 40.64 0)
 			(effects
 				(font
@@ -18519,7 +18307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 269.24 36.83 0)
 			(effects
 				(font
@@ -18676,7 +18464,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 355.6 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18703,7 +18491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 356.5652 124.46 0)
 			(effects
 				(font
@@ -18721,7 +18509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 355.6 120.65 0)
 			(effects
 				(font
@@ -18746,7 +18534,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 256.54 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18773,7 +18561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 257.5052 50.8 0)
 			(effects
 				(font
@@ -18791,7 +18579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 256.54 46.99 0)
 			(effects
 				(font
@@ -18882,7 +18670,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 336.55 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18907,7 +18695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 347.98 78.74 0)
 			(effects
 				(font
@@ -18925,7 +18713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 336.55 78.74 0)
 			(effects
 				(font
@@ -19285,7 +19073,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 368.3 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19312,7 +19100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 368.3 50.8 0)
 			(effects
 				(font
@@ -19330,7 +19118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 368.3 39.37 0)
 			(effects
 				(font
@@ -19355,7 +19143,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 123.19 196.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19380,7 +19168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 134.62 196.85 0)
 			(effects
 				(font
@@ -19398,7 +19186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 123.19 196.85 0)
 			(effects
 				(font
@@ -19557,7 +19345,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 247.65 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19584,7 +19372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 248.6152 171.45 0)
 			(effects
 				(font
@@ -19602,7 +19390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 247.65 167.64 0)
 			(effects
 				(font
@@ -20186,7 +19974,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 142.24 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20213,7 +20001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 143.2052 114.3 0)
 			(effects
 				(font
@@ -20231,7 +20019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 142.24 110.49 0)
 			(effects
 				(font
@@ -20409,7 +20197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 248.92 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20436,7 +20224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 248.92 246.38 0)
 			(effects
 				(font
@@ -20454,7 +20242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 248.92 234.95 0)
 			(effects
 				(font
@@ -20479,7 +20267,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 161.29 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20506,7 +20294,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 160.3248 63.5 0)
 			(effects
 				(font
@@ -20524,7 +20312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 161.29 67.31 0)
 			(effects
 				(font
@@ -20549,7 +20337,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 336.55 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20576,7 +20364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 337.5152 240.03 0)
 			(effects
 				(font
@@ -20594,7 +20382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 336.55 236.22 0)
 			(effects
 				(font
@@ -20619,7 +20407,77 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 231.14 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb20ed1d-ea7a-4643-bd7a-ec3bbd1c8602")
+		(property "Reference" "C35"
+			(at 234.95 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 234.95 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+			(at 232.1052 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 231.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de52f1c7-6343-498e-826d-717f0958742b")
+		)
+		(pin "2"
+			(uuid "bbb46c59-3009-4da0-9e21-2dd0bf887ffd")
+		)
+		(instances
+			(project "IMU"
+				(path "/a860206b-2407-4cb2-a80b-3f5adc4ff387"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 194.31 254 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20644,7 +20502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 190.5 254.9652 0)
 			(effects
 				(font
@@ -20662,7 +20520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 194.31 254 0)
 			(effects
 				(font
@@ -20687,7 +20545,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 314.96 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20714,7 +20572,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 314.96 121.92 0)
 			(effects
 				(font
@@ -20732,7 +20590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 314.96 133.35 0)
 			(effects
 				(font
@@ -20757,7 +20615,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 130.81 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20784,7 +20642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 131.7752 30.48 0)
 			(effects
 				(font
@@ -20802,7 +20660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 130.81 26.67 0)
 			(effects
 				(font
@@ -21061,7 +20919,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 58.42 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21088,7 +20946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 59.3852 186.69 0)
 			(effects
 				(font
@@ -21106,7 +20964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 58.42 182.88 0)
 			(effects
 				(font
@@ -21131,7 +20989,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 48.26 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21158,7 +21016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 49.2252 171.45 0)
 			(effects
 				(font
@@ -21176,7 +21034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 48.26 167.64 0)
 			(effects
 				(font
@@ -21267,7 +21125,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_1206")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 298.45 209.55 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21292,7 +21150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 294.64 210.5152 0)
 			(effects
 				(font
@@ -21310,7 +21168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 298.45 209.55 0)
 			(effects
 				(font
@@ -21473,7 +21331,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_1206")
+		(lib_id "PCM_Resistor_AKL:R_0805")
 		(at 100.33 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21500,7 +21358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
 			(at 100.33 48.26 0)
 			(effects
 				(font
@@ -21518,7 +21376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 1206 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
 			(at 100.33 36.83 0)
 			(effects
 				(font
