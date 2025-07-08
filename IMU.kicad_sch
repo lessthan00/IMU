@@ -7272,6 +7272,17 @@
 		)
 		(uuid "1c394bd6-33b9-470f-83c7-363497e7ca81")
 	)
+	(text "INT"
+		(exclude_from_sim no)
+		(at 171.45 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ddb1c55-e3ff-48b0-9fec-0b67897789a3")
+	)
 	(text "GPIO.5"
 		(exclude_from_sim no)
 		(at 368.3 180.34 0)
@@ -7578,6 +7589,17 @@
 			(justify left bottom)
 		)
 		(uuid "5d8bc9f6-bd80-4eaf-a468-720012208965")
+	)
+	(text "DRDY"
+		(exclude_from_sim no)
+		(at 224.79 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d962d9f-bac6-4bf0-a996-76dfa8b473f4")
 	)
 	(text "模式按钮\n"
 		(exclude_from_sim no)
@@ -8643,20 +8665,16 @@
 		(uuid "010bbb72-b477-4526-b135-16a06ff6d50f")
 	)
 	(no_connect
-		(at 332.74 43.18)
-		(uuid "05ee0862-17a1-4c3f-9f90-6fb4ad0b63eb")
-	)
-	(no_connect
-		(at 332.74 38.1)
-		(uuid "08ed93d8-4952-47a1-b947-859120cc7f33")
-	)
-	(no_connect
 		(at 30.48 260.35)
 		(uuid "1324ef2b-0463-43cf-b126-cea5e1c68bed")
 	)
 	(no_connect
 		(at 388.62 152.4)
 		(uuid "297623b0-a554-4920-85ee-b0307a9dc4fc")
+	)
+	(no_connect
+		(at 332.74 43.18)
+		(uuid "2e9fb1f8-e3d3-44da-b8d1-faa55ead5412")
 	)
 	(no_connect
 		(at 388.62 182.88)
@@ -8705,6 +8723,10 @@
 	(no_connect
 		(at 388.62 154.94)
 		(uuid "8998e2b2-5cd3-430c-90b8-1cd6ec60e4c5")
+	)
+	(no_connect
+		(at 332.74 38.1)
+		(uuid "94171bd8-3da0-4134-9f85-a3017893fd12")
 	)
 	(no_connect
 		(at 388.62 193.04)
@@ -11984,16 +12006,6 @@
 		)
 		(uuid "355ac212-eba6-450c-8af5-a3d09e6a4a54")
 	)
-	(label "DRDY"
-		(at 217.17 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "357bee25-44ec-4e9f-8045-7a4e7b878e44")
-	)
 	(label "U0TXD"
 		(at 368.3 139.7 0)
 		(effects
@@ -12334,6 +12346,16 @@
 		)
 		(uuid "7b885678-a0ea-4640-b29b-3a74a6583bef")
 	)
+	(label "GPIO2"
+		(at 217.17 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e429ee8-c3cb-4999-a5db-69c8b1884be4")
+	)
 	(label "~{RTS}"
 		(at 317.5 93.98 0)
 		(effects
@@ -12654,15 +12676,15 @@
 		)
 		(uuid "df149637-6d29-4a7c-bec2-73cb01c26fb2")
 	)
-	(label "INT"
-		(at 165.1 43.18 0)
+	(label "GPIO1"
+		(at 163.83 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e2f7c4c3-ccff-47e1-bb04-6956b67cf950")
+		(uuid "dfb187e6-3682-4f40-a514-e6fcdadcaca3")
 	)
 	(label "SPID"
 		(at 195.58 109.22 0)

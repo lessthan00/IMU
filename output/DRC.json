@@ -1,0 +1,241 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2025-07-08T23:22:39+0800",
+    "kicad_version": "9.0.1",
+    "schematic_parity": [],
+    "source": "IMU.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.1466 mm)",
+            "items": [
+                {
+                    "description": "过孔 [/~{DTR}] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 155.88,
+                        "y": 120.99
+                    },
+                    "uuid": "17e4f78e-9d5f-4e7b-8e33-7763a78185b8"
+                },
+                {
+                    "description": "泪滴 [Net-(Q2-B)] 在 F.Cu 上",
+                    "pos": {
+                        "x": 155.071838,
+                        "y": 120.713383
+                    },
+                    "uuid": "41dbbd68-b0f6-42c4-a298-830711dd6691"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.1847 mm)",
+            "items": [
+                {
+                    "description": "F.Cu 上 J1 的焊盘 A1 [GND]",
+                    "pos": {
+                        "x": 176.255,
+                        "y": 135.2
+                    },
+                    "uuid": "6dc6f487-d0ec-41a7-aa6f-b9021e5e658c"
+                },
+                {
+                    "description": "J1 的非金属化焊盘",
+                    "pos": {
+                        "x": 177.395,
+                        "y": 134.89
+                    },
+                    "uuid": "26da46e0-4018-4305-bf44-6cd07fffbd60"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.1847 mm)",
+            "items": [
+                {
+                    "description": "F.Cu 上 J1 的焊盘 A12 [GND]",
+                    "pos": {
+                        "x": 176.255,
+                        "y": 128.8
+                    },
+                    "uuid": "f931775e-de49-43f3-9ce6-72ecb3f87935"
+                },
+                {
+                    "description": "J1 的非金属化焊盘",
+                    "pos": {
+                        "x": 177.395,
+                        "y": 129.11
+                    },
+                    "uuid": "cf1e313a-3b40-4e1e-a6e5-73c658e2aea7"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.1847 mm)",
+            "items": [
+                {
+                    "description": "F.Cu 上 J1 的焊盘 B1 [GND]",
+                    "pos": {
+                        "x": 176.255,
+                        "y": 128.8
+                    },
+                    "uuid": "867311c9-773b-4511-a65a-bb057303a0ce"
+                },
+                {
+                    "description": "J1 的非金属化焊盘",
+                    "pos": {
+                        "x": 177.395,
+                        "y": 129.11
+                    },
+                    "uuid": "cf1e313a-3b40-4e1e-a6e5-73c658e2aea7"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.1847 mm)",
+            "items": [
+                {
+                    "description": "F.Cu 上 J1 的焊盘 B12 [GND]",
+                    "pos": {
+                        "x": 176.255,
+                        "y": 135.2
+                    },
+                    "uuid": "454e1c79-4794-47a3-9bb8-f025e1439184"
+                },
+                {
+                    "description": "J1 的非金属化焊盘",
+                    "pos": {
+                        "x": 177.395,
+                        "y": 134.89
+                    },
+                    "uuid": "26da46e0-4018-4305-bf44-6cd07fffbd60"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.1976 mm)",
+            "items": [
+                {
+                    "description": "F.Cu 上 X1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 116.85
+                    },
+                    "uuid": "7ae7185e-d184-45ab-90a7-92f94ffaf405"
+                },
+                {
+                    "description": "泪滴 [/XTAL_N] 在 F.Cu 上",
+                    "pos": {
+                        "x": 140.045266,
+                        "y": 116.077455
+                    },
+                    "uuid": "2a774687-5323-4707-bc82-886ad7b695a4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "F.Cu 上 AE2 的焊盘 1 [/LNA_IN]",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 119.0
+                    },
+                    "uuid": "1a302963-bbf2-43d2-ba52-9d250dac84a3"
+                },
+                {
+                    "description": "F.Cu 上 AE2 的焊盘 3 [<no net>]",
+                    "pos": {
+                        "x": 120.925,
+                        "y": 119.0
+                    },
+                    "uuid": "a118a0d7-1491-42a8-b568-b858bcb3f78e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "F.Cu 上 AE2 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 116.75
+                    },
+                    "uuid": "17890aa0-0538-4e69-a0ef-102017ef782a"
+                },
+                {
+                    "description": "F.Cu 上 AE2 的焊盘 3 [<no net>]",
+                    "pos": {
+                        "x": 120.925,
+                        "y": 116.75
+                    },
+                    "uuid": "b4969416-e18a-4148-8761-65f359cde214"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "F.Cu 上 AE2 的焊盘 3 [<no net>]",
+                    "pos": {
+                        "x": 120.925,
+                        "y": 116.75
+                    },
+                    "uuid": "b4969416-e18a-4148-8761-65f359cde214"
+                },
+                {
+                    "description": "F.Cu 上的 矩形 [GND]",
+                    "pos": {
+                        "x": 123.78,
+                        "y": 115.62
+                    },
+                    "uuid": "034e49e4-4144-413d-80f7-5c11ede6408d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.1883 mm)",
+            "items": [
+                {
+                    "description": "泪滴 [Net-(Q2-B)] 在 F.Cu 上",
+                    "pos": {
+                        "x": 155.071838,
+                        "y": 120.713383
+                    },
+                    "uuid": "41dbbd68-b0f6-42c4-a298-830711dd6691"
+                },
+                {
+                    "description": "泪滴 [/~{DTR}] 在 F.Cu 上",
+                    "pos": {
+                        "x": 156.375196,
+                        "y": 121.08
+                    },
+                    "uuid": "fde59ad9-50b9-4d30-b47b-0f3ef34d56dc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        }
+    ]
+}

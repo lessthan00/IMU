@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>README.md</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+html,footer,header{
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Custom MD PDF CSS
+ */
+html,footer,header{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+
+ }
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+<link rel="stylesheet" href="file:///r%3A/2.Travail/1.Enseignement/Cours/_1.Outils/2.Developpement/1.SCSS/main.css" type="text/css"><link rel="stylesheet" href="file:///d%3A/rdaros/Cours/_1.Outils/2.Developpement/1.SCSS/main.css" type="text/css">
+</head>
+
+<body>
+    <h1 id="imuesp32s3mpu6050hmc5883lssd1306">IMU_ESP32S3_MPU6050_HMC5883L_SSD1306</h1>
+<h2 id="%E5%9F%BA%E4%BA%8Eesp32%E7%9A%84imu%E7%B3%BB%E7%BB%9F%E4%B8%8Eoled%E6%98%BE%E7%A4%BA%E5%B1%8F">基于ESP32的IMU系统与OLED显示屏</h2>
+<h3 id="%E7%AE%80%E4%BB%8B">简介</h3>
+<p>本项目实现了一个基于ESP32微控制器的惯性测量单元（IMU）系统，集成了MPU6050（6轴加速度计和陀螺仪）、HMC5883L（3轴磁力计）和SSD1306 OLED显示屏（128x64像素）。系统通过卡尔曼滤波融合传感器数据，实时计算并显示设备的俯仰（pitch）、滚转（roll）和偏航（yaw）角度，适用于机器人、无人机或可穿戴设备等需要精确姿态测量的场景。</p>
+<h3 id="%E7%A1%AC%E4%BB%B6%E8%A6%81%E6%B1%82">硬件要求</h3>
+<h4 id="%E5%85%83%E4%BB%B6%E6%B8%85%E5%8D%95">元件清单</h4>
+<table>
+<thead>
+<tr>
+<th>元件</th>
+<th>描述</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ESP32微控制器</td>
+<td>ESP32开发板（如DevKitC）或ESP32S3芯片</td>
+<td>ESP32S3需USB转串口烧录</td>
+</tr>
+<tr>
+<td>MPU6050传感器模块</td>
+<td>6轴加速度计和陀螺仪</td>
+<td>I2C通信，地址0x68或0x69</td>
+</tr>
+<tr>
+<td>HMC5883L传感器模块</td>
+<td>3轴数字磁力计</td>
+<td>I2C通信，地址0x1E</td>
+</tr>
+<tr>
+<td>SSD1306 OLED显示屏</td>
+<td>128x64像素</td>
+<td>I2C通信</td>
+</tr>
+<tr>
+<td>触控按钮（4个）</td>
+<td>用于电源、模式、冻结和预留功能</td>
+<td>连接到GPIO 15、16、17、18</td>
+</tr>
+<tr>
+<td>跳线</td>
+<td>用于连接元件</td>
+<td></td>
+</tr>
+<tr>
+<td>面包板或PCB</td>
+<td>用于安装元件</td>
+<td></td>
+</tr>
+<tr>
+<td>电源</td>
+<td>若不使用带USB的开发板需单独电源</td>
+<td>3.3V</td>
+</tr>
+<tr>
+<td>USB转串口转换器</td>
+<td>如CP2102或CH340，仅ESP32S3芯片需要</td>
+<td>用于程序烧录</td>
+</tr>
+</tbody>
+</table>
+<h4 id="%E5%BC%95%E8%84%9A%E6%8E%A5%E7%BA%BF%E5%9B%BE">引脚接线图</h4>
+<p>所有传感器和显示屏通过I2C接口连接到ESP32的GPIO 21（SDA）和GPIO 22（SCL）。按钮连接到指定GPIO引脚。以下是详细接线表：</p>
+<table>
+<thead>
+<tr>
+<th>元件</th>
+<th>引脚</th>
+<th>ESP32连接</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MPU6050</td>
+<td>SDA</td>
+<td>GPIO 11</td>
+<td>I2C数据线</td>
+</tr>
+<tr>
+<td>MPU6050</td>
+<td>SCL</td>
+<td>GPIO 12</td>
+<td>I2C时钟线</td>
+</tr>
+<tr>
+<td>MPU6050</td>
+<td>VCC</td>
+<td>3.3V</td>
+<td>电源</td>
+</tr>
+<tr>
+<td>MPU6050</td>
+<td>GND</td>
+<td>GND</td>
+<td>接地</td>
+</tr>
+<tr>
+<td>HMC5883L</td>
+<td>SDA</td>
+<td>GPIO 11</td>
+<td>I2C数据线</td>
+</tr>
+<tr>
+<td>HMC5883L</td>
+<td>SCL</td>
+<td>GPIO 12</td>
+<td>I2C时钟线</td>
+</tr>
+<tr>
+<td>HMC5883L</td>
+<td>VCC</td>
+<td>3.3V</td>
+<td>电源</td>
+</tr>
+<tr>
+<td>HMC5883L</td>
+<td>GND</td>
+<td>GND</td>
+<td>接地</td>
+</tr>
+<tr>
+<td>SSD1306 OLED</td>
+<td>SDA</td>
+<td>GPIO 11</td>
+<td>I2C数据线</td>
+</tr>
+<tr>
+<td>SSD1306 OLED</td>
+<td>SCL</td>
+<td>GPIO 12</td>
+<td>I2C时钟线</td>
+</tr>
+<tr>
+<td>SSD1306 OLED</td>
+<td>VCC</td>
+<td>3.3V</td>
+<td>电源</td>
+</tr>
+<tr>
+<td>SSD1306 OLED</td>
+<td>GND</td>
+<td>GND</td>
+<td>接地</td>
+</tr>
+<tr>
+<td>电源按钮</td>
+<td>-</td>
+<td>GPIO 15</td>
+<td>控制电源开关</td>
+</tr>
+<tr>
+<td>模式按钮</td>
+<td>-</td>
+<td>GPIO 16</td>
+<td>切换绝对/相对模式</td>
+</tr>
+<tr>
+<td>冻结按钮</td>
+<td>-</td>
+<td>GPIO 17</td>
+<td>冻结/解冻显示</td>
+</tr>
+<tr>
+<td>预留按钮</td>
+<td>-</td>
+<td>GPIO 18</td>
+<td>预留未来功能</td>
+</tr>
+</tbody>
+</table>
+<p><strong>ESP32S3芯片额外接线</strong>（若使用芯片而非开发板）：</p>
+<ul>
+<li>TX（ESP32S3）→ RX（USB转串口）</li>
+<li>RX（ESP32S3）→ TX（USB转串口）</li>
+<li>CH_PD（ESP32S3）→ 3.3V（USB转串口）</li>
+<li>EN（ESP32S3）→ 3.3V（USB转串口）</li>
+<li>GND（ESP32S3）→ GND（USB转串口）</li>
+<li>VCC（ESP32S3）→ 3.3V（USB转串口）</li>
+</ul>
+<p><strong>注意</strong>：所有I2C设备（MPU6050、HMC5883L、SSD1306）共享相同的SDA和SCL线。按钮连接需使用内部上拉电阻或外部上拉电阻。</p>
+<h3 id="%E8%BD%AF%E4%BB%B6%E7%BB%93%E6%9E%84">软件结构</h3>
+<h4 id="%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84%E6%A1%86%E5%9B%BE">程序结构框图</h4>
+<p>软件基于FreeRTOS实现多任务处理，包含以下并发任务：</p>
+<ul>
+<li><strong>传感器任务</strong>：以20 Hz频率从MPU6050和HMC5883L读取数据，发送到传感器队列。</li>
+<li><strong>处理任务</strong>：从传感器队列接收数据，使用卡尔曼滤波计算姿态（俯仰、滚转、偏航），以5 Hz频率发送到姿态队列。</li>
+<li><strong>显示任务</strong>：从姿态队列接收数据，以5 Hz频率更新OLED显示屏。</li>
+<li><strong>按钮任务</strong>：监控按钮状态，处理电源开关、模式切换（绝对/相对）和显示冻结。</li>
+<li><strong>初始化与校准任务</strong>：启动时初始化I2C接口、传感器，并执行校准。</li>
+</ul>
+<p><strong>框图描述</strong>：</p>
+<ul>
+<li><strong>输入</strong>：MPU6050（加速度、角速度）、HMC5883L（磁场）</li>
+<li><strong>任务流程</strong>：
+<ul>
+<li>传感器任务 → 传感器队列 → 处理任务 → 姿态队列 → 显示任务</li>
+<li>按钮任务 → 处理用户输入</li>
+</ul>
+</li>
+<li><strong>输出</strong>：SSD1306 OLED显示屏</li>
+<li><strong>同步机制</strong>：使用FreeRTOS队列（<code>sensor_queue</code>、<code>attitude_queue</code>）和信号量（<code>i2c_mutex</code>、<code>ssd1306_mutex</code>、<code>calibration_done_sem</code>）进行任务间通信和资源保护。</li>
+</ul>
+<h4 id="%E6%B5%81%E7%A8%8B%E5%9B%BE">流程图</h4>
+<ol>
+<li><strong>启动</strong>：
+<ul>
+<li>初始化ESP32S3外设（I2C、GPIO）</li>
+<li>创建FreeRTOS任务和队列</li>
+</ul>
+</li>
+<li><strong>校准</strong>：
+<ul>
+<li>校准MPU6050（加速度计和陀螺仪，设备需静止）</li>
+<li>校准HMC5883L（磁力计，需缓慢旋转设备）</li>
+</ul>
+</li>
+<li><strong>主循环</strong>：
+<ul>
+<li>传感器任务：持续读取传感器数据并发送到队列</li>
+<li>处理任务：从队列接收数据，处理并发送到显示队列</li>
+<li>显示任务：从队列接收数据，更新显示屏</li>
+<li>按钮任务：持续监控按钮并处理事件</li>
+</ul>
+</li>
+<li><strong>关机</strong>：
+<ul>
+<li>长按电源按钮，暂停任务并关闭系统</li>
+</ul>
+</li>
+</ol>
+<h3 id="%E4%BC%A0%E6%84%9F%E5%99%A8%E4%B8%8E%E6%98%BE%E7%A4%BA%E5%B1%8F%E7%AE%80%E4%BB%8B">传感器与显示屏简介</h3>
+<h4 id="mpu6050">MPU6050</h4>
+<p>MPU6050是一个6轴惯性测量单元，包含3轴加速度计（量程±4g）和3轴陀螺仪（量程±500 dps）。它通过I2C通信（地址0x68或0x69），用于测量设备的俯仰和滚转角度。更多信息可参考 <a href="https://www.instructables.com/Connecting-MPU6050-With-ESP32/">MPU6050教程</a>。</p>
+<h4 id="hmc5883l">HMC5883L</h4>
+<p>HMC5883L是一个3轴数字磁力计，用于测量磁场以确定偏航（罗盘方向）。它通过I2C通信（地址0x1E），支持倾斜补偿以提高精度。更多信息可参考 <a href="https://circuitdigest.com/microcontroller-projects/diy-smartwatch-using-esp32-part3-interfacing-magnetometer-and-gyroscope-with-esp32">HMC5883L与ESP32接口</a>。</p>
+<h4 id="ssd1306-oled%E6%98%BE%E7%A4%BA%E5%B1%8F">SSD1306 OLED显示屏</h4>
+<p>SSD1306是一个128x64像素的OLED显示屏，通过I2C通信，显示实时传感器数据，包括俯仰、滚转、偏航、加速度、陀螺仪和磁力计读数。支持绝对和相对模式，并可根据Z轴加速度自动翻转显示。更多信息可参考 <a href="https://randomnerdtutorials.com/esp32-ssd1306-oled-display-arduino-ide/">ESP32与SSD1306教程</a>。</p>
+<h3 id="%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E">使用说明</h3>
+<h4 id="%E7%A1%AC%E4%BB%B6%E8%AE%BE%E7%BD%AE">硬件设置</h4>
+<ol>
+<li>按照引脚接线图连接MPU6050、HMC5883L、SSD1306和按钮到ESP32S3。</li>
+<li>若使用ESP32S3芯片，连接USB转串口模块（TX、RX、CH_PD、EN、GND）。</li>
+<li>使用面包板或PCB固定元件，确保3.3V电源稳定。</li>
+</ol>
+<h4 id="%E7%A8%8B%E5%BA%8F%E7%83%A7%E5%BD%95">程序烧录</h4>
+<ol>
+<li><strong>使用ESP32S3开发板</strong>：
+<ul>
+<li>通过USB连接开发板到计算机。</li>
+<li>使用ESP-IDF或Arduino IDE（需安装ESP32支持）上传<code>main.c</code>程序。</li>
+</ul>
+</li>
+<li><strong>使用ESP32S3芯片</strong>：
+<ul>
+<li>连接USB转串口模块（如CP2102或CH340）。</li>
+<li>使用ESP-IDF或Arduino IDE烧录程序，确保正确配置串口引脚。</li>
+</ul>
+</li>
+</ol>
+<h4 id="%E6%93%8D%E4%BD%9C">操作</h4>
+<ul>
+<li><strong>开机</strong>：短按电源按钮（GPIO 15）。</li>
+<li><strong>关机</strong>：长按电源按钮（&gt;2秒）。</li>
+<li><strong>模式切换</strong>：按模式按钮（GPIO 16）切换绝对/相对测量模式。</li>
+<li><strong>冻结显示</strong>：按冻结按钮（GPIO 17）冻结/解冻显示。</li>
+<li><strong>预留功能</strong>：预留按钮（GPIO 18）为未来功能保留。</li>
+</ul>
+<h3 id="%E8%B0%83%E8%AF%95%E4%B8%8E%E6%97%A5%E5%BF%97">调试与日志</h3>
+<ul>
+<li>系统使用ESP_LOG框架记录日志，标签为“mpu6050 test”和“SSD1306”。</li>
+<li>定期记录任务堆栈使用情况以监控内存使用。</li>
+<li>校准期间需保持设备静止（MPU6050）或缓慢旋转（HMC5883L）。</li>
+</ul>
+<h3 id="%E5%BD%93%E5%89%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98">当前存在的问题</h3>
+<ol>
+<li>
+<p><strong>数据更新速度慢</strong>：</p>
+<ul>
+<li>传感器任务以20 Hz频率生成数据，而处理任务和显示任务以5 Hz频率消费数据，导致生产速度快于消费速度，可能造成<code>sensor_queue</code>和<code>attitude_queue</code>队列满溢。日志中会记录“传感器队列已满”或“姿态队列已满”的警告。</li>
+<li><strong>潜在解决方案</strong>：优化处理任务的计算效率（如简化卡尔曼滤波算法）或增加队列大小，同时调整任务调度优先级以平衡生产和消费速度。</li>
+</ul>
+</li>
+<li>
+<p><strong>关机后无法正常开机</strong>：</p>
+<ul>
+<li>系统运行一段时间后，关机（长按电源按钮）并再次短按电源按钮可能无法正常开机，表现为任务未正确恢复或系统未完全初始化。</li>
+<li><strong>潜在原因</strong>：可能是任务挂起/恢复逻辑问题，或电源管理状态未正确重置。需要检查<code>button_task</code>中的任务恢复逻辑和硬件电源管理电路。</li>
+</ul>
+</li>
+</ol>
+<h3 id="%E6%9C%AA%E6%9D%A5%E5%B1%95%E6%9C%9B">未来展望</h3>
+<ol>
+<li><strong>添加可视化更好的仪表界面</strong>：
+<ul>
+<li>当前SSD1306显示屏以文本形式显示数据，未来计划开发图形化仪表界面（如指针式仪表或3D姿态可视化），以提高用户体验。</li>
+<li>实现方式可能包括使用SSD1306的图形库绘制动态仪表盘，或升级到更高分辨率的显示屏（如SSD1327或彩色TFT屏）以支持更复杂的可视化。</li>
+<li>需优化显示任务以确保图形渲染不影响实时性能。</li>
+</ul>
+</li>
+</ol>
+<h2 id="%E7%A1%AC%E4%BB%B6%E4%BB%8E%E6%96%B0%E8%AE%BE%E8%AE%A1">硬件从新设计</h2>
+<h3 id="%E7%89%A9%E6%96%99">物料</h3>
+<p>GY-521模块,MPU6050,接口定义VCC,GND,SCL,SDA,XDA,SCL,ADO,INT<br>
+GY-271模块,HMC5883L,接口定义VCC,GND,SCL,SDA,DRDY<br>
+轻触开关<br>
+0.96寸OLED SSD1306模块,接口定义VCC,GND,SCL,SDA<br>
+因为I2C总线的通讯拥挤,可以选择使用SPI通讯.<br>
+0.96村OLED SSD1306模块,7针接口定义 GND,VCC,D0,D1,RES,DC,CS<br>
+GND 电源地, VCC 3.3V~5V, D0, SPI时钟线(SPI_CLK), D1,SPI数据线(SPI_MOSI), RES,复位, DC, 数据/命令选择脚,CS,片选信号,低电平有效,CS不可悬空.<br>
+CH340G<br>
+ESP32-S3FN8<br>
+ESP32-S3-WROOM-1-N16R8</p>
+<h3 id="hw-%E7%A1%AC%E4%BB%B6%E5%8F%82%E8%80%83"><a href="https://docs.espressif.com/projects/esp-idf/zh_CN/stable/esp32s3/hw-reference/index.html">H/W 硬件参考</a></h3>
+<p><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_cn.pdf">技术参考手册 (PDF)</a><br>
+<a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_cn.pdf">技术规格书 (PDF)</a></p>
+<h3 id="spi%E5%88%86%E9%85%8D">SPI分配</h3>
+<h3 id="spi2-%E7%AE%A1%E8%84%9A%E5%AF%B9%E5%BA%94%E8%A1%A8"><a href="https://docs.espressif.com/projects/esp-idf/zh_CN/stable/esp32s3/api-reference/peripherals/spi_master.html#gpio-io-mux">SPI2 管脚对应表</a></h3>
+<table>
+<thead>
+<tr>
+<th>管脚名称</th>
+<th>GPIO编号 (SPI2)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CS0</td>
+<td>10</td>
+</tr>
+<tr>
+<td>SCLK</td>
+<td>12</td>
+</tr>
+<tr>
+<td>MISO</td>
+<td>13</td>
+</tr>
+<tr>
+<td>MOSI</td>
+<td>11</td>
+</tr>
+<tr>
+<td>QUADWP</td>
+<td>14</td>
+</tr>
+<tr>
+<td>QUADHD</td>
+<td>9</td>
+</tr>
+</tbody>
+</table>
+<h4 id="%E6%8A%80%E6%9C%AF%E8%A7%84%E6%A0%BC%E4%B9%A6-pdf"><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_cn.pdf">技术规格书 (PDF)</a></h4>
+<h5 id="%E7%AC%AC-30-%E7%AB%A0-spi-%E6%8E%A7%E5%88%B6%E5%99%A8spi">第 30 章 SPI 控制器(SPI)</h5>
+<h5 id="301-%E6%A6%82%E8%BF%B0">30.1 概述</h5>
+<p>串行外设接口(SPI)是一种同步串行接口，可用于与外围设备进行通信。ESP32-S3芯片集成了四个SPI控制<br>
+器：<br>
+• SPI0<br>
+• SPI1<br>
+• 通用SPI2，即GP-SPI2<br>
+• 和通用SPI3，即GP-SPI3<br>
+SPI0 和 SPI1 控制器主要供内部使用以访问外部flash及PSRAM。本章节主要介绍GP-SPI控制器，即GP-SPI2<br>
+和GP-SPI3。</p>
+<p>(所以毫无疑问应该选择SPI2)</p>
+<h5 id="30583-%E4%B8%BB%E6%9C%BA%E5%85%A8%E5%8F%8C%E5%B7%A5%E9%80%9A%E4%BF%A1%E4%BB%85%E6%94%AF%E6%8C%811-bit%E6%A8%A1%E5%BC%8F">30.5.8.3 主机全双工通信（仅支持1-bit模式）</h5>
+<table>
+<thead>
+<tr>
+<th>Master (GP-SPI2)</th>
+<th>Direction</th>
+<th>Slave</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FSPID</td>
+<td>→</td>
+<td>MOSI</td>
+</tr>
+<tr>
+<td>FSPIQ</td>
+<td>←</td>
+<td>MISO</td>
+</tr>
+<tr>
+<td>FSPICLK</td>
+<td>→</td>
+<td>CLK</td>
+</tr>
+<tr>
+<td>FSPICS0</td>
+<td>→</td>
+<td>CS</td>
+</tr>
+</tbody>
+</table>
+<h5 id="%E9%99%84%E5%BD%95a%E2%80%93esp32-s3%E7%AE%A1%E8%84%9A%E6%80%BB%E8%A7%88">附录A–ESP32-S3管脚总览</h5>
+<p>GPIO9 ~ GPIO14 并未高亮,说明无限制和关键作用,可以放心使用.</p>
+<h3 id="i2c-%E5%88%86%E9%85%8D">I2C 分配</h3>
+<p><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_cn.pdf">技术规格书 (PDF)</a></p>
+<h4 id="4212-i2c-%E6%8E%A5%E5%8F%A3">4.2.1.2 I2C 接口</h4>
+<p>管脚分配<br>
+I2C 的管脚可以为任意GPIO，通过GPIO交换矩阵配置。</p>
+<h4 id="231-io-mux-%E5%8A%9F%E8%83%BD">2.3.1 IO MUX 功能</h4>
+<p>部分直接源自特定外设（U0TXD、MTCK等），包括UART0/1、JTAG、SPI0/1和SPI2</p>
+<p>(意味着I2C 并没有不通过IO MUX 矩阵的更特殊接口)</p>
+<p>RTC_GPIO0,RTC_GPIO3均被标记为黄色</p>
+<h4 id="%E6%8A%80%E6%9C%AF%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C-pdf234-gpio-%E5%92%8Crtcgpio-%E7%9A%84%E9%99%90%E5%88%B6"><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_cn.pdf">技术参考手册 (PDF)</a>2.3.4 GPIO 和RTC_GPIO 的限制</h4>
+<p>本章节的表格中，部分管脚功能有高亮标记。推荐优先使用没有高亮的GPIO或RTC_GPIO管脚。<br>
+如需更多管脚，请谨慎选择高亮的GPIO或RTC_GPIO管脚，避免与重要功能冲突。</p>
+<h4 id="%E6%8A%80%E6%9C%AF%E8%A7%84%E6%A0%BC%E4%B9%A6-pdf%E9%99%84%E5%BD%95a%E2%80%93esp32-s3%E7%AE%A1%E8%84%9A%E6%80%BB%E8%A7%88"><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_cn.pdf">技术规格书 (PDF)</a>附录A–ESP32-S3管脚总览</h4>
+<p>可知标黄原因:<br>
+GPIO0,复位时IE,WPU,复位后IE,WPU.<br>
+GPIO3,复位时IE,复位后IE.</p>
+<h4 id="boot-%E6%A8%A1%E5%BC%8F%E6%8E%A7%E5%88%B6">Boot 模式控制</h4>
+<p>复位释放后，GPIO0、GPIO1、GPIO2和GPIO46在复位时的值将共同决定Boot模式。表8.2-1列出了GPIO0、<br>
+GPIO1、GPIO2 和 GPIO46 的 Strapping 值及其对应的系统启动模式。<br>
+表8.2-1. 系统启动模式</p>
+<table>
+<thead>
+<tr>
+<th>Boot Mode</th>
+<th>GPIO0</th>
+<th>GPIO46</th>
+<th>GPIO1</th>
+<th>GPIO2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPI Boot Mode</td>
+<td>1</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr>
+<td>Joint Download Boot Mode</td>
+<td>0</td>
+<td>0</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr>
+<td>SPI Download Boot Mode</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>x：任何取值均不会对结果有影响，因此可忽略。<br>
+Joint Download Boot 模式下支持以下下载方式：<br>
+• USB Download Boot<br>
+–USB-Serial-JTAG Download Boot<br>
+–USB-OTG Download Boot<br>
+• UART Download Boot<br>
+SPI DownloadBoot模式：GPIO1和GPIO2不是strapping管脚，但使用SPI Download Boot 模式时需要预留GPIO1和GPIO2。GPIO1和GPIO2默认浮空，在复位时处于高阻抗状态。</p>
+<p>在SPI Boot 模式下，ROM引导加载程序通过从SPIflash中读取程序来启动系统。SPIBoot模式可进一步细分为以下两种启动方式：<br>
+• 常规flash启动方式：支持安全启动。ROM引导加载程序将程序从flash加载到SRAM，并执行。在大多数实际应用场景中，上述执行的程序多为二级引导程序，该二级引导程序将启动最终的应用程序。<br>
+• 直接启动方式：不支持安全启动，程序直接从flash中运行。如需使能这一启动方式，请确保下载至flash的bin 文件其前两个字（地址：0x42000000）为0xaedb041d。<br>
+在Joint Download Boot 模式下，用户可通过UART或USB接口将二进制文件下载至flash，或将二进制文件下载至SRAM并在SRAM中运行程序。<br>
+在SPI Download Boot 模式下，用户可通过SPI接口将二进制文件下载至flash，或将二进制文件下载至SRAM并运行SRAM中的程序.</p>
+<p>所以GPIO0 GPIO1 GPIO2 GPIO3都最好不使用.</p>
+<h4 id="%E7%AE%A1%E8%84%9A%E9%85%8D%E7%BD%AE%E4%B8%80%E6%A0%8F%E4%B8%BA%E5%A4%8D%E4%BD%8D%E6%97%B6%E5%92%8C%E5%A4%8D%E4%BD%8D%E5%90%8E%E9%A2%84%E8%AE%BE%E9%85%8D%E7%BD%AE%E7%BC%A9%E5%86%99">管脚配置一栏为复位时和复位后预设配置缩写</h4>
+<p>•IE–输入使能<br>
+•WPU–内部弱上拉电阻使能<br>
+•WPD–内部弱下拉电阻使能<br>
+• USB_PU–USB上拉电阻使能–USB管脚（GPIO19和GPIO20）默认开启USB功能，此时管脚是否上拉由USB上拉决定。USB上拉由USB_SERIAL_JTAG_DP/<br>
+DM_PULLUP控制，USB上拉电阻的具体阻值可通过USB_SERIAL_JTAG_PULLUP_VALUE位控制，详见《ESP32-S3技术参考手册》</p>
+<blockquote>
+<p>章节USB串口/JTAG控制器。–USB管脚关闭USB功能时，用作普通GPIO，默认禁用管脚内部弱上/下拉电阻，可通过IO_MUX_FUN_WPU/WPD配置，<br>
+详见《ESP32-S3技术参考手册》&gt;章节IOMUX和GPIO交换矩阵。<br>
+EFUSE_DIS_PAD_JTAG的值为<br>
+• 0-弱上拉电阻使能<br>
+• 1-管脚浮空</p>
+</blockquote>
+<h3 id="ssd1306-7pin-design">SSD1306 7PIN design</h3>
+<p><a href="https://pan.baidu.com/s/1WhZjZDjIXnzRosZPsYRTPA?pwd=6666">taobao</a></p>
+<p>0.96村OLED SSD1306模块,7针接口定义 GND,VCC,D0,D1,RES,DC,CS</p>
+<table>
+<thead>
+<tr>
+<th>引脚名称</th>
+<th>描述</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GND</td>
+<td>电源地</td>
+<td></td>
+</tr>
+<tr>
+<td>VCC</td>
+<td>电源 (3.3V~5V)</td>
+<td>工作电压范围</td>
+</tr>
+<tr>
+<td>D0</td>
+<td>SPI时钟线 (SPI_CLK)</td>
+<td></td>
+</tr>
+<tr>
+<td>D1</td>
+<td>SPI数据线 (SPI_MOSI)</td>
+<td></td>
+</tr>
+<tr>
+<td>RES</td>
+<td>复位信号</td>
+<td></td>
+</tr>
+<tr>
+<td>DC</td>
+<td>数据/命令选择脚</td>
+<td></td>
+</tr>
+<tr>
+<td>CS</td>
+<td>片选信号 (低电平有效)</td>
+<td>不可悬空</td>
+</tr>
+</tbody>
+</table>
+<h3 id="mpu6050-design">MPU6050 design</h3>
+<p>copy from  <a href="https://github.com/lessthan00/MPU6050">MPU6050</a></p>
+<p><a href="https://www.jlc-smt.com/lcsc/detail?componentCode=C24112">JLC 页面</a></p>
+<p>再次对比原理图封装无问题.<br>
+对比芯片封装也无问题, 引脚间距0.5, QFN4x4mm, 热焊盘2.7x2.7, 打大过孔, 拉长焊盘,好焊接.</p>
+<p><a href="https://item.szlcsc.com/datasheet/MPU-6050/24852.html">data sheet</a></p>
+<h4 id="%E6%8F%8F%E8%BF%B0">描述</h4>
+<p>其数字运动处理器(DMP)提供的融合运动数据输出，大幅降低了对系统处理器频繁轮询传感器数据的需求。<br>
+1024字节片上FIFO缓冲区通过让系统处理器突发读取传感器数据后进入低功耗模式，有效降低系统整体功耗。<br>
+封装 4x4x0.9mm(QFN)<br>
+MPU-6050仅支持I2C串行接口且设有独立VLOGIC引脚；<br>
+3轴陀螺仪、3轴加速度计及数字运动处理器™(DMP)。通过专用I2C传感器总线，可直接接入外部3轴电子罗盘数据，输出完整的9轴MotionFusion™融合数据。</p>
+<h4 id="72-typical-operating-circuit">7.2 Typical Operating Circuit</h4>
+<p>对比电路图无问题,对比封装,无问题.</p>
+<p>I2C 上拉电阻10K<br>
+AD0 下拉到地, 简化电路, 固定I2C 地址.<br>
+FSYNC 帧同步数字输入,不使用下拉到地.<br>
+CLKIN 外部输入时钟信号,不使用下拉到地.<br>
+INT 需要找一个引脚.</p>
+<h4 id="92-i2c-interface">9.2 I2C Interface</h4>
+<p>当MPU-60X0与系统处理器通信时，始终作为从机设备工作（此时系统处理器担任主机角色）。SDA和SCL线路通常需要上拉电阻连接至VDD电源，总线最高传输速率为400kHz。</p>
+<p>MPU-60X0的7位从机地址为b110100X，其中最低位（LSB）由AD0引脚的电平状态决定。这一特性支持将两个MPU-60X0设备连接到同一I2C总线：在此配置下，一个设备的地址应为b1101000（AD0引脚置为逻辑低电平），另一个设备的地址则为b1101001（AD0引脚置为逻辑高电平）。</p>
+<p>所以I2C地址为 b1101000 (0x68) (104)</p>
+<h4 id="dmp">DMP</h4>
+<p>MPU-60X0系列芯片内置的数字运动处理器（DMP）可将运动处理算法的计算任务从主处理器卸载。该DMP能够从加速度计、陀螺仪及磁力计等第三方传感器获取数据并进行处理，处理结果既可通过DMP寄存器读取，也可存入FIFO缓冲区。DMP还可调用MPU的一个外部引脚来生成中断信号。</p>
+<p>DMP的核心价值在于为主处理器减轻时序处理负担并降低运算负荷。通常情况下，运动处理算法需以约200Hz的高频率运行才能保证低延迟的精确运算——即便应用层更新速率低至5Hz（如低功耗用户界面场景）也不例外。采用DMP可有效实现四大优势：降低系统功耗、简化时序控制、优化软件架构，并为应用程序节省宝贵的主处理器运算资源。</p>
+<p>(进一步了解发现好像DMP也没那么好用)</p>
+<h3 id="hmc5883l-design">HMC5883L design</h3>
+<p><a href="https://wiki.lckfb.com/zh-hans/esp32s3r8n8/module/sensor/hmc5883l-sensor.html">嘉立创 开发板模块资料</a><br>
+<a href="https://detail.tmall.com/item.htm?abbucket=15&amp;id=615355218813&amp;ns=1">采购链接</a><br>
+<a href="https://pan.baidu.com/s/1DfYH5OQHmD8zj1fMbI6ffg">HMC5883L资料下载链接</a> 提取码：8888<br>
+<a href="https://cdn-shop.adafruit.com/datasheets/HMC5883L_3-Axis_Digital_Compass_IC.pdf">数据手册</a></p>
+<h4 id="hmc5883l-description">HMC5883L description</h4>
+<p>sch copy from <a href="https://github.com/lessthan00/QMC5883L">QMC5883L</a></p>
+<p>霍尼韦尔 HMC5883L 是一种表面贴装的高集成模块，并带有数字接口的弱磁传感器芯片，应用于低成本罗盘和磁场检测领域。HMC5883L 包括最先进的高分辨率 HMC118X 系列磁阻传感器，并附带霍尼韦尔专利的集成电路包括放大器、自动消磁驱动器、偏差校准、能使罗盘精度控制在 1°~2°的 12 位模数转换器.简易的 I2C 系列总线接口。HMC5883L 是采用无铅表面封装技术，带有16引脚，尺寸为3.0X3.0X0.9mm。<br>
+低电压工作(2.16-3.6V)和超低功耗（100uA）<br>
+最大输出频率可达160Hz</p>
+<h4 id="%E4%BE%9B%E7%94%B5%E5%8E%8B%E9%80%89%E6%8B%A9">供电压选择</h4>
+<p>如果选择1.8V 供电, 会导致IO口需要转电平<br>
+3.3V 供电是可行的,所以选择3.3V供电.</p>
+<h4 id="i2c-%E5%9C%B0%E5%9D%80%E8%BD%AC%E6%8D%A2%E8%A1%A8">I2C 地址转换表</h4>
+<table>
+<thead>
+<tr>
+<th>地址类型</th>
+<th>十六进制格式</th>
+<th>二进制格式</th>
+<th>十进制格式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7位设备地址</td>
+<td>0x1E</td>
+<td><code>b001 1110</code></td>
+<td>30</td>
+</tr>
+<tr>
+<td>8位读取地址</td>
+<td>0x3D</td>
+<td><code>b0011 1101</code></td>
+<td>61</td>
+</tr>
+<tr>
+<td>8位写入地址</td>
+<td>0x3C</td>
+<td><code>b0011 1100</code></td>
+<td>60</td>
+</tr>
+</tbody>
+</table>
+<h5 id="7%E4%BD%8D%E5%9C%B0%E5%9D%80-%E2%86%92-8%E4%BD%8D%E5%9C%B0%E5%9C%B0%E5%9D%80">7位地址 → 8位地地址</h5>
+<ul>
+<li>7位地址直接使用低7位</li>
+<li>8位地址在7位地址前补0，并在末尾添加R/W位：</li>
+<li><strong>写入地址</strong> = (7位地址 &lt;&lt; 1) | 0<br>
+<code>0x1E &lt;&lt; 1</code> = 0x3C<br>
+<code>0x3C | 0</code> = 0x3C</li>
+<li><strong>读取地址</strong> = (7位地址 &lt;&lt; 1) | 1<br>
+<code>0x1E &lt;&lt; 1</code> = 0x3C<br>
+<code>0x3C | 1</code> = 0x3D</li>
+</ul>
+<h4 id="%E5%BC%95%E8%84%9A%E9%85%8D%E7%BD%AE">引脚配置</h4>
+<table>
+<thead>
+<tr>
+<th>引脚编号</th>
+<th>引脚名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>SCL</td>
+<td>串行时钟 - I2C总线主/从时钟</td>
+</tr>
+<tr>
+<td>2</td>
+<td>VDD</td>
+<td>电源（2.16V-3.6V）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>NC</td>
+<td>无连接</td>
+</tr>
+<tr>
+<td>4</td>
+<td>S1</td>
+<td>连接 VDDIO</td>
+</tr>
+<tr>
+<td>5</td>
+<td>NC</td>
+<td>无连接</td>
+</tr>
+<tr>
+<td>6</td>
+<td>NC</td>
+<td>无连接</td>
+</tr>
+<tr>
+<td>7</td>
+<td>NC</td>
+<td>无连接</td>
+</tr>
+<tr>
+<td>8</td>
+<td>SETP</td>
+<td>置位/复位带正-S/R电容（C2）连接</td>
+</tr>
+<tr>
+<td>9</td>
+<td>GND</td>
+<td>电源接地</td>
+</tr>
+<tr>
+<td>10</td>
+<td>C1</td>
+<td>存储电容器（C1）连接</td>
+</tr>
+<tr>
+<td>11</td>
+<td>GND</td>
+<td>电源接地</td>
+</tr>
+<tr>
+<td>12</td>
+<td>SETC</td>
+<td>S/R电容器（C2）连接-驱动端</td>
+</tr>
+<tr>
+<td>13</td>
+<td>VDDIO</td>
+<td>IO电源供应（1.7V-VDD）</td>
+</tr>
+<tr>
+<td>14</td>
+<td>NC</td>
+<td>无连接</td>
+</tr>
+<tr>
+<td>15</td>
+<td>DRDY</td>
+<td>数据准备，中断引脚。内部被拉高。当数据位于输出寄存器时会在低电位上停250μsec</td>
+</tr>
+<tr>
+<td>16</td>
+<td>SDA</td>
+<td>串行数据 - I2C总线主/从数据</td>
+</tr>
+</tbody>
+</table>
+<h3 id="%E6%8C%89%E7%85%A7%E6%8E%A8%E8%8D%90%E7%94%B5%E8%B7%AF%E5%9B%BE%E8%AE%BE%E8%AE%A1">按照推荐电路图设计</h3>
+<p>I2C上拉电阻选择为10K</p>
+<h3 id="qmc5883l-design">QMC5883L design</h3>
+<p>这是HMC5883L的替代,引脚配置是一样的,封装也是一样的 LGA-16(3x3),轴的方向也一样,外围电路图也是一样.</p>
+<p><a href="https://www.jlc-smt.com/lcsc/detail?componentCode=C976032&amp;spm=smt-pc.search-result.list.1">QMC5883L JLC</a></p>
+<h4 id="qmc5883l-description">QMC5883L description</h4>
+<p>QMC5883L 是一款多芯片三轴磁传感器。这款表面贴装、小尺寸芯片集成了磁传感器与信号调理专用集成电路（ASIC），主要面向无人机、机器人、移动设备及手持装置等高精度应用场景，如电子罗盘、导航和游戏交互。</p>
+<p>基于霍尼韦尔（Honeywell）授权的先进磁阻（AMR）技术，QMC5883L结合定制设计的16位模数转换器（ADC）ASIC，具有低噪声、高精度、低功耗、偏移消除和温度补偿等优势，可实现1°至2°的罗盘航向精度。其I²C串行总线接口便于快速集成。</p>
+<p>该传感器采用3x3x0.9mm³的16引脚栅格阵列（LGA）表面贴装封装。</p>
+<p>低电压工作(2.16-3.6V)和超低功耗（75uA）<br>
+最大输出频率可达200Hz</p>
+
+</body>
+
+</html>
