@@ -1,6 +1,8 @@
 *.bak
 *.kicad_prl
 *-backups/
-*gerber/
+jlc_gerber/
+kicad_gerber/
+ad_gerber/
 *.zip
 fp-info-cache

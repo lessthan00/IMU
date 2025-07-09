@@ -24410,7 +24410,7 @@
 		)
 	)
 	(gr_text "D0"
-		(at 134.68 152.63 0)
+		(at 134.19 152.35 0)
 		(layer "F.SilkS")
 		(uuid "a308fd02-7993-423a-9fb5-42bbfcab1abd")
 		(effects
@@ -24462,7 +24462,7 @@
 		)
 	)
 	(gr_text "VCC"
-		(at 136.46 152.46 0)
+		(at 135.89 152.41 0)
 		(layer "F.SilkS")
 		(uuid "befb72f9-32d4-4ae2-9c76-09ff77a7e80c")
 		(effects
@@ -24514,7 +24514,7 @@
 		)
 	)
 	(gr_text "D1"
-		(at 132.32 152.46 0)
+		(at 131.9 152.39 0)
 		(layer "F.SilkS")
 		(uuid "da6f5db4-3897-4937-91c8-ee7c17b71800")
 		(effects

@@ -1,0 +1,296 @@
+{
+    "top_layer": {
+        "jlc_filename": "Gerber_TopLayer.GTL",
+        "jlc_header": [
+            "G04 Layer: TopLayer*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_f_cu.gtl",
+        "kicad_filename2": ".gtl",
+        "to_kicad_gbr": "_top_layer.gbr",
+        "kicad_gbr": "_f_cu.gbr",
+        "RS-274X": "_copper_signal_top.gbr",
+        "ad_filename": "GTL"
+    },
+    "bottom_layer": {
+        "jlc_filename": "Gerber_BottomLayer.GBL",
+        "jlc_header": [
+            "G04 Layer: BottomLayer*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_b_cu.gbl",
+        "kicad_filename2": ".gbl",
+        "to_kicad_gbr": "_bottom_layer.gbr",
+        "kicad_gbr": "_b_cu.gbr",
+        "RS-274X": "_copper_signal_bot.gbr",
+        "ad_filename": "GBL"
+    },
+    "inner_layer_1": {
+        "jlc_filename": "Gerber_InnerLayer1.G1",
+        "jlc_header": [
+            "G04 Layer: InnerLayer1*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_in1_cu.g2",
+        "kicad_filename2": ".g2",
+        "to_kicad_gbr": "_inner1_layer.gbr",
+        "kicad_gbr": "_in1_cu.gbr",
+        "RS-274X": "copper_signal_1.gbr",
+        "ad_filename": "G1"
+    },
+    "inner_layer_2": {
+        "jlc_filename": "Gerber_InnerLayer2.G2",
+        "jlc_header": [
+            "G04 Layer: InnerLayer2*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_in2_cu.g3",
+        "kicad_filename2": ".g3",
+        "to_kicad_gbr": "_inner2_layer.gbr",
+        "kicad_gbr": "_in2_cu.gbr",
+        "RS-274X": "_copper_signal_2.gbr",
+        "ad_filename": "G2"
+    },
+    "inner_layer_3": {
+        "jlc_filename": "Gerber_InnerLayer3.G3",
+        "jlc_header": [
+            "G04 Layer: InnerLayer3*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_in3_cu.g4",
+        "kicad_filename2": ".g4",
+        "to_kicad_gbr": "_inner3_layer.gbr",
+        "kicad_gbr": "_in3_cu.gbr",
+        "RS-274X": "_copper_signal_3.gbr",
+        "ad_filename": "G3"
+    },
+    "inner_layer_4": {
+        "jlc_filename": "Gerber_InnerLayer4.G4",
+        "jlc_header": [
+            "G04 Layer: InnerLayer4*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_in4_cu.g5",
+        "kicad_filename2": ".g5",
+        "to_kicad_gbr": "_inner4_layer.gbr",
+        "kicad_gbr": "_in4_cu.gbr",
+        "RS-274X": "_copper_signal_4.gbr",
+        "ad_filename": "G4"
+    },
+    "inner_layer_5": {
+        "jlc_filename": "Gerber_InnerLayer5.G5",
+        "jlc_header": [
+            "G04 Layer: InnerLayer5*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_in5_cu.g6",
+        "kicad_filename2": ".g6",
+        "to_kicad_gbr": "_inner5_layer.gbr",
+        "kicad_gbr": "_in5_cu.gbr",
+        "RS-274X": "_copper_signal_5.gbr",
+        "ad_filename": "G5"
+    },
+    "inner_layer_6": {
+        "jlc_filename": "Gerber_InnerLayer6.G6",
+        "jlc_header": [
+            "G04 Layer: InnerLayer6*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_in6_cu.g7",
+        "kicad_filename2": ".g7",
+        "to_kicad_gbr": "_inner6_layer.gbr",
+        "kicad_gbr": "_in6_cu.gbr",
+        "RS-274X": "_copper_signal_6.gbr",
+        "ad_filename": "G6"
+    },
+    "top_silkscreen": {
+        "jlc_filename": "Gerber_TopSilkscreenLayer.GTO",
+        "jlc_header": [
+            "G04 Layer: TopSilkscreenLayer*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_f_silkscreen.gto",
+        "kicad_filename2": ".gto",
+        "to_kicad_gbr": "_top_overlay.gbr",
+        "ti_ad_gbr": "_top_silkscreen.gbr",
+        "kicad_gbr": "_f_silkscreen.gbr",
+        "RS-274X": "_legend_top.gbr",
+        "ad_filename": "GTO"
+    },
+    "bottom_silkscreen": {
+        "jlc_filename": "Gerber_BottomSilkscreenLayer.GBO",
+        "jlc_header": [
+            "G04 Layer: BottomSilkscreenLayer*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_b_silkscreen.gbo",
+        "kicad_filename2": ".gbo",
+        "to_kicad_gbr": "_bottom_overlay.gbr",
+        "ti_ad_gbr": "_bottom_silkscreen.gbr",
+        "kicad_gbr": "_b_silkscreen.gbr",
+        "RS-274X": "_legend_bot.gbr",
+        "ad_filename": "GBO"
+    },
+    "top_paste": {
+        "jlc_filename": "Gerber_TopPasteMaskLayer.GTP",
+        "jlc_header": [
+            "G04 Layer: TopPasteMaskLayer*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_f_paste.gtp",
+        "kicad_filename2": ".gtp",
+        "to_kicad_gbr": "_top_paste.gbr",
+        "ti_ad_gbr": "_top_paste_mask.gbr",
+        "kicad_gbr": "_f_paste.gbr",
+        "RS-274X": "_paste_top.gbr",
+        "ad_filename": "GTP"
+    },
+    "bottom_paste": {
+        "jlc_filename": "Gerber_BottomPasteMaskLayer.GBP",
+        "jlc_header": [
+            "G04 Layer: BottomPasteMaskLayer*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_b_paste.gbp",
+        "kicad_filename2": ".gbp",
+        "to_kicad_gbr": "_bottom_paste.gbr",
+        "ti_ad_gbr": "_bottom_paste_mask.gbr",
+        "kicad_gbr": "_b_paste.gbr",
+        "RS-274X": "_paste_bot.gbr",
+        "ad_filename": "GBP"
+    },
+    "top_mask": {
+        "jlc_filename": "Gerber_TopSolderMaskLayer.GTS",
+        "jlc_header": [
+            "G04 Layer: TopSolderMaskLayer*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_f_mask.gts",
+        "kicad_filename2": ".gts",
+        "to_kicad_gbr": "_top_solder.gbr",
+        "ti_ad_gbr": "_top_solder_mask.gbr",
+        "kicad_gbr": "_f_mask.gbr",
+        "RS-274X": "_soldermask_top.gbr",
+        "ad_filename": "GTS"
+    },
+    "bottom_mask": {
+        "jlc_filename": "Gerber_BottomSolderMaskLayer.GBS",
+        "jlc_header": [
+            "G04 Layer: BottomSolderMaskLayer*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_b_mask.gbs",
+        "kicad_filename2": ".gbs",
+        "to_kicad_gbr": "_bottom_solder.gbr",
+        "ti_ad_gbr": "_bottom_solder_mask.gbr",
+        "kicad_gbr": "_b_mask.gbr",
+        "RS-274X": "_soldermask_bot.gbr",
+        "ad_filename": "GBS"
+    },
+    "edge_cuts": {
+        "jlc_filename": "Gerber_BoardOutlineLayer.GKO",
+        "jlc_header": [
+            "G04 Layer: BoardOutlineLayer*",
+            "G04 EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:22*",
+            "G04 Gerber Generator version 0.3*",
+            "G04 Scale: 100 percent, Rotated: No, Reflected: No*",
+            "G04 Dimensions in millimeters*",
+            "G04 Leading zeros omitted, absolute positions, 4 integers and 5 decimals*"
+        ],
+        "kicad_GerberX2_Protel": "_edge_cuts.gm1",
+        "kicad_filename2": ".gm1",
+        "to_kicad_gbr": null,
+        "ti_ad_gbr": null,
+        "kicad_gbr": "_edge_cuts.gbr",
+        "RS-274X": "_mechanical_1.gbr",
+        "ad_filename": "GKO"
+    },
+    "plated_through_hole": {
+        "jlc_filename": "Drill_PTH_Through.DRL",
+        "jlc_header": [
+            ";TYPE=PLATED",
+            ";Layer: PTH_Through",
+            ";EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:23",
+            ";Gerber Generator version 0.3"
+        ],
+        "kicad_GerberX2_Protel": "_pth.drl",
+        "kicad_filename2": "_pth.drl",
+        "to_kicad_gbr": null,
+        "ti_ad_gbr": "drill_drawing_through_holes.gbr",
+        "kicad_gbr": "_pth_drl.gbr",
+        "RS-274X": "_pth_drill.gbr",
+        "ad_filename": "GBR2"
+    },
+    "non_plated_through_hole": {
+        "jlc_filename": "Drill_NPTH_Through.DRL",
+        "jlc_header": [
+            ";TYPE=NON_PLATED",
+            ";Layer: NPTH_Through",
+            ";EasyEDA Pro v2.2.37.7, 2025-04-08 14:09:23",
+            ";Gerber Generator version 0.3"
+        ],
+        "kicad_GerberX2_Protel": "_npth.drl",
+        "kicad_filename2": "_npth.drl",
+        "to_kicad_gbr": null,
+        "ti_ad_gbr": null,
+        "kicad_gbr": "_npth_drl.gbr",
+        "RS-274X": "_npth_drill.gbr",
+        "ad_filename": "GBR1"
+    }
+}

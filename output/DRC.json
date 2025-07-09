@@ -1,35 +1,12 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2025-07-09T11:11:32+0800",
-    "kicad_version": "9.0.2",
+    "date": "2025-07-09T20:29:24+0800",
+    "kicad_version": "9.0.1",
     "schematic_parity": [],
     "source": "IMU.kicad_pcb",
     "unconnected_items": [],
     "violations": [
-        {
-            "description": "短路两个网络的项目 (网络 /GPIO8 和 VCC)",
-            "items": [
-                {
-                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
-                    "pos": {
-                        "x": 127.92,
-                        "y": 154.0
-                    },
-                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
-                },
-                {
-                    "description": "走线 [VCC] (F.Cu), 长度: 0.0424 mm",
-                    "pos": {
-                        "x": 127.95,
-                        "y": 153.97
-                    },
-                    "uuid": "abdf7443-86cf-41b2-93d3-57b9689dc8c5"
-                }
-            ],
-            "severity": "error",
-            "type": "shorting_items"
-        },
         {
             "description": "短路两个网络的项目 (网络 GND 和 /GPIO10)",
             "items": [
@@ -48,75 +25,6 @@
                         "y": 154.0
                     },
                     "uuid": "7a31b1f2-18a6-4b75-97e2-ba423787f956"
-                }
-            ],
-            "severity": "error",
-            "type": "shorting_items"
-        },
-        {
-            "description": "短路两个网络的项目 (网络 GND 和 VCC)",
-            "items": [
-                {
-                    "description": "U3 的金属化焊盘 9 [GND]",
-                    "pos": {
-                        "x": 151.0,
-                        "y": 136.8
-                    },
-                    "uuid": "38136c85-f442-47d1-bfa6-cc244f3f2cff"
-                },
-                {
-                    "description": "走线 [VCC] (B.Cu), 长度: 4.2000 mm",
-                    "pos": {
-                        "x": 146.4,
-                        "y": 137.0
-                    },
-                    "uuid": "73222e46-a2a3-4979-9d4c-da9cae555e97"
-                }
-            ],
-            "severity": "error",
-            "type": "shorting_items"
-        },
-        {
-            "description": "短路两个网络的项目 (网络 GND 和 VCC)",
-            "items": [
-                {
-                    "description": "U3 的金属化焊盘 9 [GND]",
-                    "pos": {
-                        "x": 151.0,
-                        "y": 136.8
-                    },
-                    "uuid": "38136c85-f442-47d1-bfa6-cc244f3f2cff"
-                },
-                {
-                    "description": "走线 [VCC] (B.Cu), 长度: 13.0000 mm",
-                    "pos": {
-                        "x": 150.6,
-                        "y": 137.0
-                    },
-                    "uuid": "7931b8cc-1b1d-4d0c-b969-c9864a3d12be"
-                }
-            ],
-            "severity": "error",
-            "type": "shorting_items"
-        },
-        {
-            "description": "短路两个网络的项目 (网络 GND 和 VCC)",
-            "items": [
-                {
-                    "description": "U3 的金属化焊盘 9 [GND]",
-                    "pos": {
-                        "x": 151.0,
-                        "y": 136.8
-                    },
-                    "uuid": "38136c85-f442-47d1-bfa6-cc244f3f2cff"
-                },
-                {
-                    "description": "走线 [VCC] (B.Cu), 长度: 3.2000 mm",
-                    "pos": {
-                        "x": 150.6,
-                        "y": 133.8
-                    },
-                    "uuid": "b78c4499-f7e6-4526-afbb-8af8c298df1a"
                 }
             ],
             "severity": "error",
@@ -146,27 +54,27 @@
             "type": "shorting_items"
         },
         {
-            "description": "短路两个网络的项目 (网络 /GPIO8 和 VCC)",
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.1466 mm)",
             "items": [
                 {
-                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "description": "过孔 [/~{DTR}] (F.Cu - B.Cu)",
                     "pos": {
-                        "x": 127.92,
-                        "y": 154.0
+                        "x": 155.88,
+                        "y": 120.99
                     },
-                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                    "uuid": "17e4f78e-9d5f-4e7b-8e33-7763a78185b8"
                 },
                 {
-                    "description": "走线 [VCC] (F.Cu), 长度: 4.2426 mm",
+                    "description": "泪滴 [Net-(Q2-B)] 在 F.Cu 上",
                     "pos": {
-                        "x": 127.92,
-                        "y": 154.0
+                        "x": 155.071838,
+                        "y": 120.713383
                     },
-                    "uuid": "c8bfafe0-9ce9-4be9-a198-9e032dee5641"
+                    "uuid": "4d580f04-d6f9-426d-88b2-c63a64954037"
                 }
             ],
             "severity": "error",
-            "type": "shorting_items"
+            "type": "clearance"
         },
         {
             "description": "短路两个网络的项目 (网络 VCC 和 /GPIO8)",
@@ -190,29 +98,6 @@
             ],
             "severity": "error",
             "type": "shorting_items"
-        },
-        {
-            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.1466 mm)",
-            "items": [
-                {
-                    "description": "过孔 [/~{DTR}] (F.Cu - B.Cu)",
-                    "pos": {
-                        "x": 155.88,
-                        "y": 120.99
-                    },
-                    "uuid": "17e4f78e-9d5f-4e7b-8e33-7763a78185b8"
-                },
-                {
-                    "description": "泪滴 [Net-(Q2-B)] 在 F.Cu 上",
-                    "pos": {
-                        "x": 155.071838,
-                        "y": 120.713383
-                    },
-                    "uuid": "4d580f04-d6f9-426d-88b2-c63a64954037"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
         },
         {
             "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.0000 mm)",
@@ -284,27 +169,50 @@
             "type": "clearance"
         },
         {
-            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.0000 mm)",
+            "description": "短路两个网络的项目 (网络 /GPIO8 和 VCC)",
             "items": [
                 {
-                    "description": "走线 [VCC] (F.Cu), 长度: 2.1675 mm",
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
                     "pos": {
-                        "x": 140.03,
-                        "y": 152.05
+                        "x": 127.92,
+                        "y": 154.0
                     },
-                    "uuid": "ccd56b63-c82d-4f31-9b90-21bcc24123d1"
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
                 },
                 {
-                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "description": "走线 [VCC] (F.Cu), 长度: 0.0424 mm",
                     "pos": {
-                        "x": 123.775,
-                        "y": 112.0
+                        "x": 127.95,
+                        "y": 153.97
                     },
-                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                    "uuid": "abdf7443-86cf-41b2-93d3-57b9689dc8c5"
                 }
             ],
             "severity": "error",
-            "type": "clearance"
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路两个网络的项目 (网络 /GPIO8 和 VCC)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "走线 [VCC] (F.Cu), 长度: 4.2426 mm",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "c8bfafe0-9ce9-4be9-a198-9e032dee5641"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
         },
         {
             "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.0000 mm)",
@@ -374,6 +282,98 @@
             ],
             "severity": "error",
             "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [VCC] (F.Cu), 长度: 2.1675 mm",
+                    "pos": {
+                        "x": 140.03,
+                        "y": 152.05
+                    },
+                    "uuid": "ccd56b63-c82d-4f31-9b90-21bcc24123d1"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "短路两个网络的项目 (网络 GND 和 VCC)",
+            "items": [
+                {
+                    "description": "U3 的金属化焊盘 9 [GND]",
+                    "pos": {
+                        "x": 151.0,
+                        "y": 136.8
+                    },
+                    "uuid": "38136c85-f442-47d1-bfa6-cc244f3f2cff"
+                },
+                {
+                    "description": "走线 [VCC] (B.Cu), 长度: 4.2000 mm",
+                    "pos": {
+                        "x": 146.4,
+                        "y": 137.0
+                    },
+                    "uuid": "73222e46-a2a3-4979-9d4c-da9cae555e97"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路两个网络的项目 (网络 GND 和 VCC)",
+            "items": [
+                {
+                    "description": "U3 的金属化焊盘 9 [GND]",
+                    "pos": {
+                        "x": 151.0,
+                        "y": 136.8
+                    },
+                    "uuid": "38136c85-f442-47d1-bfa6-cc244f3f2cff"
+                },
+                {
+                    "description": "走线 [VCC] (B.Cu), 长度: 13.0000 mm",
+                    "pos": {
+                        "x": 150.6,
+                        "y": 137.0
+                    },
+                    "uuid": "7931b8cc-1b1d-4d0c-b969-c9864a3d12be"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路两个网络的项目 (网络 GND 和 VCC)",
+            "items": [
+                {
+                    "description": "U3 的金属化焊盘 9 [GND]",
+                    "pos": {
+                        "x": 151.0,
+                        "y": 136.8
+                    },
+                    "uuid": "38136c85-f442-47d1-bfa6-cc244f3f2cff"
+                },
+                {
+                    "description": "走线 [VCC] (B.Cu), 长度: 3.2000 mm",
+                    "pos": {
+                        "x": 150.6,
+                        "y": 133.8
+                    },
+                    "uuid": "b78c4499-f7e6-4526-afbb-8af8c298df1a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
         },
         {
             "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.2915 mm)",

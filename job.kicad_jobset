@@ -10,7 +10,7 @@
         "description": "",
         "disable_aperture_macros": false,
         "drawing_sheet": "",
-        "drill_shape": "none",
+        "drill_shape": 2,
         "hide_dnp_footprints_on_fab_layers": false,
         "include_netlist_attributes": true,
         "layers": [
@@ -104,7 +104,7 @@
         "crossout_dnp_footprints_on_fab_layers": true,
         "description": "",
         "drawing_sheet": "",
-        "drill_shape": "none",
+        "drill_shape": 2,
         "front_fp_property_popups": true,
         "hide_dnp_footprints_on_fab_layers": false,
         "layers": [
@@ -178,7 +178,7 @@
         "crossout_dnp_footprints_on_fab_layers": true,
         "description": "",
         "drawing_sheet": "",
-        "drill_shape": "none",
+        "drill_shape": 2,
         "fit_page_to_board": true,
         "gen_mode": "multi",
         "hide_dnp_footprints_on_fab_layers": false,
@@ -331,7 +331,7 @@
       "settings": {
         "bg_style": "default",
         "description": "",
-        "floor": false,
+        "floor": true,
         "format": "png",
         "height": 1080,
         "light_bottom_intensity": [
@@ -359,12 +359,12 @@
         "pan_x": 0.0,
         "pan_y": 0.0,
         "pan_z": 0.0,
-        "perspective": false,
+        "perspective": true,
         "pivot_x": 0.0,
         "pivot_y": 0.0,
         "pivot_z": 0.0,
-        "quality": "basic",
-        "rotation_x": 45.0,
+        "quality": "high",
+        "rotation_x": 0.0,
         "rotation_y": 0.0,
         "rotation_z": 0.0,
         "side": "top",
@@ -451,6 +451,17 @@
       "only": [
         "0a8e8135-4f37-4370-9705-2203538c2df8",
         "848090cc-db59-426e-bef2-26151bdea68f"
+      ],
+      "settings": {
+        "output_path": "./output"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "测试",
+      "id": "839fc067-6adf-4f97-a0c1-ffc120358d48",
+      "only": [
+        "cb7cc1bb-f32b-461d-8acf-fd9775acac47"
       ],
       "settings": {
         "output_path": "./output"

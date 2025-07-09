@@ -1,0 +1,13 @@
+
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.spec
+*.exe
+jlc_gerber/
+ad_gerber/
+*.zip
+kicad_gerber/
+gerber/
