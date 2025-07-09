@@ -1,12 +1,196 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2025-07-08T23:46:06+0800",
-    "kicad_version": "9.0.1",
+    "date": "2025-07-09T11:11:32+0800",
+    "kicad_version": "9.0.2",
     "schematic_parity": [],
     "source": "IMU.kicad_pcb",
     "unconnected_items": [],
     "violations": [
+        {
+            "description": "短路两个网络的项目 (网络 /GPIO8 和 VCC)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "走线 [VCC] (F.Cu), 长度: 0.0424 mm",
+                    "pos": {
+                        "x": 127.95,
+                        "y": 153.97
+                    },
+                    "uuid": "abdf7443-86cf-41b2-93d3-57b9689dc8c5"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路两个网络的项目 (网络 GND 和 /GPIO10)",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 2.3300 mm",
+                    "pos": {
+                        "x": 126.05,
+                        "y": 151.0
+                    },
+                    "uuid": "15d1706c-48d6-41b9-9af6-8be4df6ee5c9"
+                },
+                {
+                    "description": "J2 的金属化焊盘 7 [/GPIO10]",
+                    "pos": {
+                        "x": 125.38,
+                        "y": 154.0
+                    },
+                    "uuid": "7a31b1f2-18a6-4b75-97e2-ba423787f956"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路两个网络的项目 (网络 GND 和 VCC)",
+            "items": [
+                {
+                    "description": "U3 的金属化焊盘 9 [GND]",
+                    "pos": {
+                        "x": 151.0,
+                        "y": 136.8
+                    },
+                    "uuid": "38136c85-f442-47d1-bfa6-cc244f3f2cff"
+                },
+                {
+                    "description": "走线 [VCC] (B.Cu), 长度: 4.2000 mm",
+                    "pos": {
+                        "x": 146.4,
+                        "y": 137.0
+                    },
+                    "uuid": "73222e46-a2a3-4979-9d4c-da9cae555e97"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路两个网络的项目 (网络 GND 和 VCC)",
+            "items": [
+                {
+                    "description": "U3 的金属化焊盘 9 [GND]",
+                    "pos": {
+                        "x": 151.0,
+                        "y": 136.8
+                    },
+                    "uuid": "38136c85-f442-47d1-bfa6-cc244f3f2cff"
+                },
+                {
+                    "description": "走线 [VCC] (B.Cu), 长度: 13.0000 mm",
+                    "pos": {
+                        "x": 150.6,
+                        "y": 137.0
+                    },
+                    "uuid": "7931b8cc-1b1d-4d0c-b969-c9864a3d12be"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路两个网络的项目 (网络 GND 和 VCC)",
+            "items": [
+                {
+                    "description": "U3 的金属化焊盘 9 [GND]",
+                    "pos": {
+                        "x": 151.0,
+                        "y": 136.8
+                    },
+                    "uuid": "38136c85-f442-47d1-bfa6-cc244f3f2cff"
+                },
+                {
+                    "description": "走线 [VCC] (B.Cu), 长度: 3.2000 mm",
+                    "pos": {
+                        "x": 150.6,
+                        "y": 133.8
+                    },
+                    "uuid": "b78c4499-f7e6-4526-afbb-8af8c298df1a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路两个网络的项目 (网络 /GPIO10 和 GND)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 7 [/GPIO10]",
+                    "pos": {
+                        "x": 125.38,
+                        "y": 154.0
+                    },
+                    "uuid": "7a31b1f2-18a6-4b75-97e2-ba423787f956"
+                },
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 0.9475 mm",
+                    "pos": {
+                        "x": 126.05,
+                        "y": 153.33
+                    },
+                    "uuid": "84fafc30-ed97-442b-b74c-01d394e6d11a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路两个网络的项目 (网络 /GPIO8 和 VCC)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "走线 [VCC] (F.Cu), 长度: 4.2426 mm",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "c8bfafe0-9ce9-4be9-a198-9e032dee5641"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路两个网络的项目 (网络 VCC 和 /GPIO8)",
+            "items": [
+                {
+                    "description": "走线 [VCC] (F.Cu), 长度: 2.9700 mm",
+                    "pos": {
+                        "x": 127.95,
+                        "y": 151.0
+                    },
+                    "uuid": "7ea6197f-4e57-4f21-afc0-62d10efc6a75"
+                },
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
         {
             "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.1466 mm)",
             "items": [
@@ -24,7 +208,237 @@
                         "x": 155.071838,
                         "y": 120.713383
                     },
-                    "uuid": "41dbbd68-b0f6-42c4-a298-830711dd6691"
+                    "uuid": "4d580f04-d6f9-426d-88b2-c63a64954037"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [/GPIO10] (B.Cu), 长度: 5.3882 mm",
+                    "pos": {
+                        "x": 125.38,
+                        "y": 154.0
+                    },
+                    "uuid": "fe7dd1c3-c410-47a7-9270-b0c2b03c62a7"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.1409 mm)",
+            "items": [
+                {
+                    "description": "过孔 [/GPIO1] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 128.669447,
+                        "y": 148.0
+                    },
+                    "uuid": "fd097c89-623b-4f2a-90e2-aaed773334f7"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [VCC] (F.Cu), 长度: 2.7577 mm",
+                    "pos": {
+                        "x": 138.08,
+                        "y": 154.0
+                    },
+                    "uuid": "9c75fb43-bd23-4e09-a047-1a9d12aaebef"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [VCC] (F.Cu), 长度: 2.1675 mm",
+                    "pos": {
+                        "x": 140.03,
+                        "y": 152.05
+                    },
+                    "uuid": "ccd56b63-c82d-4f31-9b90-21bcc24123d1"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [/GPIO8] (B.Cu), 长度: 2.2642 mm",
+                    "pos": {
+                        "x": 129.521,
+                        "y": 152.399
+                    },
+                    "uuid": "6a70bffe-2bf5-407e-814c-cb7f4f91356d"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.2915 mm)",
+            "items": [
+                {
+                    "description": "走线 [/GPIO1] (B.Cu), 长度: 0.0134 mm",
+                    "pos": {
+                        "x": 128.669447,
+                        "y": 148.0
+                    },
+                    "uuid": "034cc4e7-ed66-4ba3-b453-8eeb208dc085"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [/GPIO8] (B.Cu), 长度: 17.5139 mm",
+                    "pos": {
+                        "x": 129.521,
+                        "y": 134.885104
+                    },
+                    "uuid": "89074162-2a03-4f88-bdb3-3d0e305e12bb"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.2915 mm)",
+            "items": [
+                {
+                    "description": "走线 [/GPIO1] (B.Cu), 长度: 17.8206 mm",
+                    "pos": {
+                        "x": 128.66,
+                        "y": 147.990553
+                    },
+                    "uuid": "e5690a40-1709-4ae0-9660-98a1816a86ce"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.4669 mm)",
+            "items": [
+                {
+                    "description": "走线 [/GPIO7] (B.Cu), 长度: 0.8598 mm",
+                    "pos": {
+                        "x": 130.46,
+                        "y": 154.0
+                    },
+                    "uuid": "53c2042d-73dc-4675-9ba5-cb7114f9098d"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.0116 mm)",
+            "items": [
+                {
+                    "description": "走线 [/GPIO7] (B.Cu), 长度: 18.3698 mm",
+                    "pos": {
+                        "x": 129.852,
+                        "y": 153.392
+                    },
+                    "uuid": "76898bcb-94a4-4c54-99ce-5137f4987790"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
                 }
             ],
             "severity": "error",
@@ -139,7 +553,7 @@
                         "x": 140.045266,
                         "y": 116.077455
                     },
-                    "uuid": "2a774687-5323-4707-bc82-886ad7b695a4"
+                    "uuid": "e7366f2a-9784-4c5e-b621-bd8ef28d3301"
                 }
             ],
             "severity": "error",
@@ -162,7 +576,7 @@
                         "x": 120.925,
                         "y": 119.0
                     },
-                    "uuid": "2dc7d5ad-7e92-4772-a223-4113c31f2cb8"
+                    "uuid": "26468e79-fa06-4275-a7b4-e7263835b2cf"
                 }
             ],
             "severity": "error",
@@ -185,7 +599,7 @@
                         "x": 120.925,
                         "y": 116.75
                     },
-                    "uuid": "22c5c2aa-dddf-4e1c-b07c-f482e12471eb"
+                    "uuid": "595804da-cba5-49eb-b036-702e211babbf"
                 }
             ],
             "severity": "error",
@@ -200,7 +614,7 @@
                         "x": 120.925,
                         "y": 116.75
                     },
-                    "uuid": "22c5c2aa-dddf-4e1c-b07c-f482e12471eb"
+                    "uuid": "595804da-cba5-49eb-b036-702e211babbf"
                 },
                 {
                     "description": "F.Cu 上的 矩形 [GND]",
@@ -215,27 +629,1292 @@
             "type": "clearance"
         },
         {
-            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.1883 mm)",
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
             "items": [
                 {
-                    "description": "泪滴 [Net-(Q2-B)] 在 F.Cu 上",
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
                     "pos": {
-                        "x": 155.071838,
-                        "y": 120.713383
+                        "x": 127.92,
+                        "y": 154.0
                     },
-                    "uuid": "41dbbd68-b0f6-42c4-a298-830711dd6691"
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
                 },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "0251f573-2b98-4d42-992e-3fec940d24bb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "0251f573-2b98-4d42-992e-3fec940d24bb"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "0e0369f2-545e-4a3f-81b6-cc0de0f86257"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "0e0369f2-545e-4a3f-81b6-cc0de0f86257"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "1a278e3e-b215-4101-8ad5-0849d6ba9872"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "1a278e3e-b215-4101-8ad5-0849d6ba9872"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "1dc44e09-7eae-48c1-abb4-d9f543793a49"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "1dc44e09-7eae-48c1-abb4-d9f543793a49"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "21dbba3b-413a-4ec1-be31-0c77834a1be9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "21dbba3b-413a-4ec1-be31-0c77834a1be9"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "341388a9-aebd-4d4d-9a93-4ae84a1ab39d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "341388a9-aebd-4d4d-9a93-4ae84a1ab39d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "4735d99b-c41f-4003-a8d7-ac60b284b787"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "4735d99b-c41f-4003-a8d7-ac60b284b787"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "4b931314-e842-4305-a5db-a78d5900e756"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "4b931314-e842-4305-a5db-a78d5900e756"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "4d922934-6662-4e84-8ae5-6525589e3147"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "4d922934-6662-4e84-8ae5-6525589e3147"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "7212902c-3f7f-49b6-9da1-8371faf8831f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "7212902c-3f7f-49b6-9da1-8371faf8831f"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "8a129d8d-423f-429f-b3e2-75920c622c20"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "8a129d8d-423f-429f-b3e2-75920c622c20"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "b9d90d22-2bb0-4a02-bb91-3c64c738a852"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "b9d90d22-2bb0-4a02-bb91-3c64c738a852"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "e2f11686-61dc-4b40-84ff-ae6c7750141b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "e2f11686-61dc-4b40-84ff-ae6c7750141b"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "e48c2f5f-02fa-491e-b534-e5877b17bb12"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "e48c2f5f-02fa-491e-b534-e5877b17bb12"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 7 [/GPIO10]",
+                    "pos": {
+                        "x": 125.38,
+                        "y": 154.0
+                    },
+                    "uuid": "7a31b1f2-18a6-4b75-97e2-ba423787f956"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 7 [/GPIO10]",
+                    "pos": {
+                        "x": 125.38,
+                        "y": 154.0
+                    },
+                    "uuid": "7a31b1f2-18a6-4b75-97e2-ba423787f956"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 7 [/GPIO10]",
+                    "pos": {
+                        "x": 125.38,
+                        "y": 154.0
+                    },
+                    "uuid": "7a31b1f2-18a6-4b75-97e2-ba423787f956"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 7 [/GPIO10]",
+                    "pos": {
+                        "x": 125.38,
+                        "y": 154.0
+                    },
+                    "uuid": "7a31b1f2-18a6-4b75-97e2-ba423787f956"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (电路板最小间距 间距 0.2000 mm; 实际 0.1883 mm)",
+            "items": [
                 {
                     "description": "泪滴 [/~{DTR}] 在 F.Cu 上",
                     "pos": {
                         "x": 156.375196,
                         "y": 121.08
                     },
-                    "uuid": "fde59ad9-50b9-4d30-b47b-0f3ef34d56dc"
+                    "uuid": "105e63f9-c9ad-44d3-b34c-eb04126236a5"
+                },
+                {
+                    "description": "泪滴 [Net-(Q2-B)] 在 F.Cu 上",
+                    "pos": {
+                        "x": 155.071838,
+                        "y": 120.713383
+                    },
+                    "uuid": "4d580f04-d6f9-426d-88b2-c63a64954037"
                 }
             ],
             "severity": "error",
             "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.4835 mm)",
+            "items": [
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                },
+                {
+                    "description": "泪滴 [/GPIO8] 在 B.Cu 上",
+                    "pos": {
+                        "x": 129.156494,
+                        "y": 152.85543
+                    },
+                    "uuid": "94269432-a053-41da-8078-46f4d6fb41f0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.5000 mm; 实际 0.1810 mm)",
+            "items": [
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                },
+                {
+                    "description": "泪滴 [/GPIO10] 在 B.Cu 上",
+                    "pos": {
+                        "x": 126.616494,
+                        "y": 152.85543
+                    },
+                    "uuid": "9f669d85-8a9d-45ab-818f-1a3dc9a9b190"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 2.3300 mm",
+                    "pos": {
+                        "x": 126.05,
+                        "y": 151.0
+                    },
+                    "uuid": "15d1706c-48d6-41b9-9af6-8be4df6ee5c9"
+                },
+                {
+                    "description": "J2 的金属化焊盘 7 [/GPIO10]",
+                    "pos": {
+                        "x": 125.38,
+                        "y": 154.0
+                    },
+                    "uuid": "7a31b1f2-18a6-4b75-97e2-ba423787f956"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 0.9475 mm",
+                    "pos": {
+                        "x": 126.05,
+                        "y": 153.33
+                    },
+                    "uuid": "84fafc30-ed97-442b-b74c-01d394e6d11a"
+                },
+                {
+                    "description": "J2 的金属化焊盘 7 [/GPIO10]",
+                    "pos": {
+                        "x": 125.38,
+                        "y": 154.0
+                    },
+                    "uuid": "7a31b1f2-18a6-4b75-97e2-ba423787f956"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [VCC] (F.Cu), 长度: 2.9700 mm",
+                    "pos": {
+                        "x": 127.95,
+                        "y": 151.0
+                    },
+                    "uuid": "7ea6197f-4e57-4f21-afc0-62d10efc6a75"
+                },
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [VCC] (F.Cu), 长度: 0.0424 mm",
+                    "pos": {
+                        "x": 127.95,
+                        "y": 153.97
+                    },
+                    "uuid": "abdf7443-86cf-41b2-93d3-57b9689dc8c5"
+                },
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [VCC] (F.Cu), 长度: 4.2426 mm",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "c8bfafe0-9ce9-4be9-a198-9e032dee5641"
+                },
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "0251f573-2b98-4d42-992e-3fec940d24bb"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "0e0369f2-545e-4a3f-81b6-cc0de0f86257"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "1a278e3e-b215-4101-8ad5-0849d6ba9872"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "1dc44e09-7eae-48c1-abb4-d9f543793a49"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "21dbba3b-413a-4ec1-be31-0c77834a1be9"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "341388a9-aebd-4d4d-9a93-4ae84a1ab39d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "4735d99b-c41f-4003-a8d7-ac60b284b787"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "4b931314-e842-4305-a5db-a78d5900e756"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "4d922934-6662-4e84-8ae5-6525589e3147"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "7212902c-3f7f-49b6-9da1-8371faf8831f"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "8a129d8d-423f-429f-b3e2-75920c622c20"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 128.2,
+                        "y": 152.316333
+                    },
+                    "uuid": "b9d90d22-2bb0-4a02-bb91-3c64c738a852"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "e2f11686-61dc-4b40-84ff-ae6c7750141b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 6 [/GPIO8]",
+                    "pos": {
+                        "x": 127.92,
+                        "y": 154.0
+                    },
+                    "uuid": "90f6fb35-81d8-4dc6-ad64-281c1fe0aa28"
+                },
+                {
+                    "description": "泪滴 [VCC] 在 F.Cu 上",
+                    "pos": {
+                        "x": 129.287309,
+                        "y": 152.986244
+                    },
+                    "uuid": "e48c2f5f-02fa-491e-b534-e5877b17bb12"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 7 [/GPIO10]",
+                    "pos": {
+                        "x": 125.38,
+                        "y": 154.0
+                    },
+                    "uuid": "7a31b1f2-18a6-4b75-97e2-ba423787f956"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的金属化焊盘 7 [/GPIO10]",
+                    "pos": {
+                        "x": 125.38,
+                        "y": 154.0
+                    },
+                    "uuid": "7a31b1f2-18a6-4b75-97e2-ba423787f956"
+                },
+                {
+                    "description": "填充区 [GND] 在 F.Cu 和 B.Cu 上",
+                    "pos": {
+                        "x": 123.775,
+                        "y": 112.0
+                    },
+                    "uuid": "95ff521b-9923-492c-9453-8e9031324488"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
         }
     ]
 }

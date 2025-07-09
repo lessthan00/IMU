@@ -10,7 +10,7 @@
         "description": "",
         "disable_aperture_macros": false,
         "drawing_sheet": "",
-        "drill_shape": 2,
+        "drill_shape": "none",
         "hide_dnp_footprints_on_fab_layers": false,
         "include_netlist_attributes": true,
         "layers": [
@@ -104,7 +104,7 @@
         "crossout_dnp_footprints_on_fab_layers": true,
         "description": "",
         "drawing_sheet": "",
-        "drill_shape": 2,
+        "drill_shape": "none",
         "front_fp_property_popups": true,
         "hide_dnp_footprints_on_fab_layers": false,
         "layers": [
@@ -178,7 +178,7 @@
         "crossout_dnp_footprints_on_fab_layers": true,
         "description": "",
         "drawing_sheet": "",
-        "drill_shape": 2,
+        "drill_shape": "none",
         "fit_page_to_board": true,
         "gen_mode": "multi",
         "hide_dnp_footprints_on_fab_layers": false,
