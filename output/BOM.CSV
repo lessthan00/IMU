@@ -13,7 +13,7 @@
 "C22,C23","22uF","PCM_Capacitor_SMD_AKL:C_0805_2012Metric","2"
 "D1","SMAJ6.5CA","PCM_Diode_SMD_AKL:D_SMA_TVS","1"
 "J1","USB_C_Receptacle_USB2.0_16P","Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A","1"
-"J2","SSD1306_7pin","Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical","1"
+"J2","Conn_01x08","Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical","1"
 "J3","Conn_01x07","Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical","1"
 "J4","Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","1"
 "L1","24 nH (3%), 140 mA","PCM_4ms_Resistor:R_0603","1"
